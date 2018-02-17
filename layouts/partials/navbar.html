@@ -1,0 +1,68 @@
+<!-- <nav>
+  <div class="title">
+    {{ if not .IsHome }}
+      <a href="{{ $.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
+        {{ .Site.Author.homepagetext }}
+      </a>
+    {{ end }}
+  </div>
+  <div class="nav">
+    <a href="{{ "/" | relURL }}" title="{{ i18n "homePage" }}"></a>
+  </div>
+</nav> -->
+
+<header>    
+  <nav class="navSocial">
+    <ul class="socialIcons">
+      <li class="fb">
+         <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a> 
+      </li>
+      <li class="phone">
+         <a href="#" title="phone"><i class="fas fa-phone"></i></a> 
+      </li>
+      <li class="email">
+         <a href="#" title="email"><i class="fas fa-envelope"></i></a> 
+      </li>
+    </ul>
+  </nav>  
+  <nav class="navPrimary">
+    <ul>
+      <li>
+        <a href="{{ "/about" | relURL }}" title="{{ i18n "About" }}">About</a>
+      </li>
+      <li>
+        <a href="{{ "/services" | relURL }}" title="{{ i18n "About" }}">Services</a>
+      </li>
+      <li class="logo">
+        <a href="{{ "/" | relURL }}" title="{{ i18n "Home" }}">
+          <img alt="Aslan Logo" 
+          src="/images/aslanlogo.png" 
+          srcset="/images/aslanlogo@2x.png 2x"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">Our Work</a>
+      </li>
+      <li>
+        <a href="{{ "/contact" | relURL }}" title="{{ i18n "Contact" }}">Contact</a>
+      </li>
+      <li href="#" class="quote">
+        <a href="#" class="btnPrimary" onclick="modalFunction()">Get in Touch for a <br /> <span>Free Quote</span></a>
+      </li>
+    </ul>
+  </nav>
+</header> 
+
+<script>
+function modalFunction() {
+   var element = document.getElementById("modal");
+   element.classList.add("modalToggle");
+   return false;
+}
+function closeFunction() {
+   var element = document.getElementById("modal");
+   element.classList.remove("modalToggle");
+   return false;
+}
+</script>

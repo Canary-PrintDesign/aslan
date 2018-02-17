@@ -1,0 +1,32 @@
+h1 {
+	margin-top: 0;
+	color: #fff;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-family: $fontFamily;
+}
+
+h2 {
+  font-size: 52px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: $color-brand-3;
+}
+
+h3 {
+  font-size: 30px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: $color-brand-3;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: $black;
+	font-family: $fontBody;
+}

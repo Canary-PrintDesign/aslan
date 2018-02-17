@@ -1,0 +1,38 @@
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "en"
+enableEmoji = true
+languageCode = "en-us"
+paginate = 4
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+title = "Aslan Ventures"
+[author]
+  gravatarEmail = "kirstenjvd@gmail.com"
+  homepageText = ""
+  name = ""
+[params]
+  description = " Vancouver Island owned landscaping services"
+  disqusShortname = "test"
+  googleAnalytics = ""
+  licence = ""
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[[menu.pages]]
+  name = "About"
+  weight = -100
+  identifier = "about"
+  url = "/about/"
+[[menu.pages]]
+  name = "Contact"
+  weight = -90
+  identifier = "contact"
+  url = "/contact/"

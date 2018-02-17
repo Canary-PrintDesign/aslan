@@ -1,0 +1,15 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{- .Title }} - {{ .Site.Title -}}</title>
+<meta name="author" content="{{ .Site.Author.name }}">
+<meta name="description" content="{{ .Site.Params.description }}">
+
+{{ .Hugo.Generator }}
+
+<!-- CSS -->
+<meta name="description" content="{{ .Description }}">
+<link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ print "/assets/img/apple-touch-icon.png" | relURL }}">
+<link rel="shortcut icon" href="{{ print "/assets/img/favicon.ico" | relURL }}">
