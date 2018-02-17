@@ -6,11 +6,6 @@ build/
 
 node_modules/
 data/**/hash.*
-static/
-public/
-
-# Hugo default output directory
-/public
 
 ## OS Files
 # Windows
