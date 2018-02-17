@@ -1,0 +1,31 @@
+footer {
+	background: #1b1b1b;
+	text-align: center;
+	padding: 40px;
+
+	blockquote,
+	p {
+		margin-top: 0;
+		color: #fff;
+	}
+	blockquote {
+		float: right;
+		font-size: 20px;
+	}
+}
+.footerContainer {
+	padding: 30px 20px;
+	.footer-text {
+		a {
+			color: #fff;
+			text-decoration: none;	
+			padding: 20px 15px;
+			display: block;
+			font-weight: 300;
+		}
+		li {
+			display: inline-block;
+			margin-bottom: 40px;
+		}
+	}
+}

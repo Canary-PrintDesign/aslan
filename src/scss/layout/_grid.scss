@@ -1,0 +1,18 @@
+.layoutCols {
+	@include mq($from: desktop) {
+		display: flex;
+	}
+	@include mq($until: desktop) {
+		width: 100%;
+		text-align: center;
+	}
+}
+.col3 {
+	justify-content: space-around;
+}
+.col3 .colInner{
+	@include mq($from: desktop) {
+		flex: 1 33%;
+  	text-align: center;
+	}
+}

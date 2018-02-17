@@ -1,0 +1,34 @@
+<div class="modal" id="modal">
+  <div class="modalContainer">
+  	<a href="#" class="close" id="close" onclick="closeFunction()">
+  		<i class="fas fa-times"></i>
+  	</a>
+    <div class="modalContent">
+      <h2>Get in Touch!</h2>
+      
+      <p>You can either email us at <a href="mailto:"><i class="fas fa-envelope"></i> email@aslan.com</a>, call us at <a href="tel:255-555-5555"><i class="fas fa-phone"></i> 255-555-5555</a>, or fill in the form below!</p>
+      <div class="formContainer">
+      	 <form id="estimate" method="post" action="">
+          <div class="other field">
+            <label for="name field">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="other field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="other field">
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone" />
+          </div>
+          <div class="other field">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="8" required ></textarea>
+          </div>
+          <input type="submit" class="btn-primary" value="Send in for quote now!" />
+        </form>
+        <div id="form-messages"></div>
+			</div>
+    </div>  
+  </div>  
+</div>

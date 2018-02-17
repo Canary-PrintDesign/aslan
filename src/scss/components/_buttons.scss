@@ -1,0 +1,25 @@
+
+.btn {
+	display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  padding: 12px 30px 14px 30px;
+  text-transform: uppercase;
+  position: relative;
+  transition: all .25s;
+
+}
+
+.btnPrimary {
+	@extend .btn;
+	background: $color-cta;
+	color: #fff;
+}
