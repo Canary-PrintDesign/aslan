@@ -63,6 +63,8 @@ var del          = require("del"),
     del          = require("del"),
     hash         = require("gulp-hash");
 
+var awspublish = require('gulp-awspublish');
+
 gulp.task( 'browser-sync', function() {
   browserSync.init( {
 
@@ -103,7 +105,6 @@ gulp.task("images", function () {
       svgoPlugins: [{removeViewBox: false}]
     } ) )
     .pipe(gulp.dest(imagesDestination))
-    .pipe(gulp.dest("data/images"))
     .pipe( notify( { message: 'TASK: "images" Completed! 💯', onLast: true } ) );
 
 })
@@ -147,4 +148,22 @@ gulp.task("default", ["scss", "images", "vendorsJs", "customJS", "browser-sync"]
   gulp.watch( "layouts/**/*.html", [ reload ] );
   gulp.watch( jsVendorSRC, [ 'vendorsJs', reload ] );
   gulp.watch( jsCustomSRC, [ 'customJS', reload ] ); 
+});
+
+// Publish to AWS S3
+gulp.task('publish', function() {
+  var publisher = awspublish.create({
+    region: 'ca-central-1',
+    params: {
+      Bucket: 'aslan'
+    }
+  });
+  var headers = {
+    'Cache-Control': 'max-age=315360000, no-transform, public'
+  };
+  return gulp.src('public/**')
+    .pipe(awspublish.gzip())
+    .pipe(publisher.publish(headers))
+    .pipe(publisher.cache())
+    .pipe(awspublish.reporter());
 });

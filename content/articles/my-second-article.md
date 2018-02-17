@@ -1,7 +1,0 @@
-+++
-Author = " "
-Description = ""
-resources = []
-slug = ""
-
-+++
