@@ -5,11 +5,13 @@
 	background: $color-brand-3;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 160px;
+  padding-top: 180px;
   text-align: center;
   color: $white;
   position: relative;
   z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
   h1 {
 		margin-bottom: 17px;
   }
@@ -32,16 +34,32 @@
 .scrollCTA {
 	position: absolute;
 	bottom: 0;
-	background: rgba(57,87,85, .76);
-	padding: 20px 40px 12px 40px;
+	background: rgba(34, 44, 45, 0.9);
+	padding: 20px 40px 8px 40px;
 	transform: translate(-50%);
 	left: 50%;
 	border-radius: 4px 4px 0 0;
 	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	margin-top: -6px;
+	&:hover {
+		// animation: bounce 2.5s infinite;  
+		background: rgba(34, 44, 45, 1);
+		span {
+			margin-bottom: -6px;
+		}
+
+	}
 	span {
 		font-size: 28px;
+		animation: bounce 2.5s infinite;  
+		display: block; 
+		margin-bottom: 0;
+		transition: all .25s;
 	}
 	p {
+		font-size: 14px;
 		color: $white;
 		font-weight: 600;
 		margin-bottom: 0;
@@ -101,6 +119,7 @@
 		&:nth-of-type(odd) {
 			.image {
 				order: 1;
+
 			}
 			.copy {
 				order: 2;
@@ -110,13 +129,22 @@
 
 	.rowFull {
 		.col2 {
-			margin: 20px;
-			// background: #334c4b;
+			margin: 20px 0;
 		}
 		.copy {
 		}
 	}
 	.staggered {
+		.col2:first-of-type{
+			.image {
+				clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+			}		
+		}
+		.col2:last-of-type{
+			.image {
+				clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);				
+			}		
+		}
 		.image {
 			min-height: 500px;
 		}
@@ -145,6 +173,9 @@
 	min-height: 500px;
 	&.col2 {
 		align-items: center;
+	}
+	video {
+		max-width: 100%;
 	}
 	.image {
 		flex: 1 60%;
@@ -244,6 +275,12 @@
 		display: block;
 		transition: all .25s;
 	}
+	// &.subPage {
+	// 	.copy {
+	// 		min-height: 0;
+	// 		max-height: 200px;
+	// 	}
+	// }
 	.copy {
 		min-height: 400px;
     text-align: center;
@@ -256,6 +293,13 @@
     margin-top: 0;
     z-index: 1;
     position: relative;
+    svg {
+    	font-size: 280px;
+    	position: absolute;
+    	opacity: .05;
+    	right: 10px;
+    	bottom: 10px;
+    }
 	}
 	a {
 		text-decoration: none;
@@ -289,7 +333,7 @@
 			background: #13423f;
 		}
 	}
-	.construction {
+	.maintenance {
 
 		a,
 		.copy{
@@ -308,7 +352,7 @@
 		}
 
 	}
-	.maintenance {
+	.construction {
 		a,
 		.copy{
 			background: #1d312e;

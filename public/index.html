@@ -11,7 +11,7 @@
 
 
 <meta name="description" content="">
-<link rel="stylesheet" href="/css/main-d64207c8.css" />
+<link rel="stylesheet" href="/css/main-ca9e141e.css" />
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon.png">
@@ -22,12 +22,11 @@
     <div class="modal" id="modal">
   <div class="modalContainer">
   	<a href="#" class="close" id="close" onclick="closeFunction()">
-  		<i class="fas fa-times"></i>
   	</a>
     <div class="modalContent">
       <h2>Get in Touch!</h2>
       
-      <p>You can either email us at <a href="mailto:"><i class="fas fa-envelope"></i> email@aslan.com</a>, call us at <a href="tel:255-555-5555"><i class="fas fa-phone"></i> 255-555-5555</a>, or fill in the form below!</p>
+      <p>You can either email us at <a href="mailto:info@aslanventures.ca"><i class="fas fa-envelope"></i> info@aslanventures.ca</a>, call us at <a href="tel:250-954-5367"><i class="fas fa-phone"></i> 250-954-5367</a>, or fill in the form below!</p>
       <div class="formContainer">
       	 <form id="estimate" method="post" action="">
           <div class="other field">
@@ -60,13 +59,13 @@
   <nav class="navSocial">
     <ul class="socialIcons">
       <li class="fb">
-         <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a> 
+         <a href="https://www.facebook.com/Aslanventuresinc/" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a> 
       </li>
       <li class="phone">
-         <a href="#" title="phone"><i class="fas fa-phone"></i></a> 
+         <a href="tel:250-954-5367" title="phone"><i class="fas fa-phone"></i></a> 
       </li>
       <li class="email">
-         <a href="#" title="email"><i class="fas fa-envelope"></i></a> 
+         <a href="mailto:info@aslanventures.ca" title="email"><i class="fas fa-envelope"></i></a> 
       </li>
     </ul>
   </nav>  
@@ -75,8 +74,13 @@
       <li>
         <a href="/about" title="">About</a>
       </li>
-      <li>
-        <a href="/services" title="">Services</a>
+      <li class="serviceDropdown">
+        <a href="/design" title="">Services</a>
+        <ul class="subMenu">
+          <li><a href="/design" title="">Design</a></li>
+          <li><a href="/construction" title="">Construction</a>
+          <li><a href="/maintenance" title="">Maintenance</a></li>
+        </ul>
       </li>
       <li class="logo">
         <a href="/" title="">
@@ -117,8 +121,9 @@ function closeFunction() {
 
 <style>
   .topTout {
-    background: url('/images/tout_bg.jpg');
+    background: url('/images/tout_bg12.jpg');
     background-size: cover;
+    background-position: center bottom;
   }
 </style>
 
@@ -131,13 +136,13 @@ function closeFunction() {
       </h1>
       <p>Reinventing yards since 2007</p>
     </div>
-    <div class="scrollCTA">
+    <a href="#whyus" class="scrollCTA">
       <p>Scroll down to see why us!</p>
       <span><i class="fas fa-angle-down"></i></span>
-    </div>
+    </a>
 
   </section>  
-  <section class="howHome">
+  <section class="howHome" id="whyus">
     <div class="wrapper leadCopy col2 layoutCols">
       <div class="colInner copyContainer">
         <span class="subTitle">Landscaping Leaders</span>
@@ -147,7 +152,9 @@ function closeFunction() {
         </div>
       </div> 
       <div class="colInner image">
-          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAslanventuresinc%2Fvideos%2F1428460233875027%2F&show_text=0&width=560" width="660" height="370" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" autoplay allowFullScreen="true"></iframe>
+        <video id="heroVideo" autoplay loop class="fullscreen">
+          <source src="/images/aslanWorking.mp4" type="video/mp4">  </source>
+        </video>
       </div> 
     </div> 
     <div class="row rowFull staggered"> 
@@ -156,7 +163,7 @@ function closeFunction() {
           <h3><span>We transform your dreams into reality</span></h3>
           <p>Our years of landscape experience has taught us how to construct an enchanting outdoor living oasis to savor all year long. </p>
         </div>  
-        <div class="colInner image" style="background-image:url(/images/home_img2.jpg)" />
+        <div class="colInner image" style="background-image:url(/images/home_img5.jpg)" />
         </div>  
       </div>
       <div class="col2 layoutCols">
@@ -164,7 +171,7 @@ function closeFunction() {
           <h3><span>Creative and innovative</span></h3>
           <p>Discover the infinite possibilities hidden in your own yard, no matter how difficult the terrain or vegetation. Our design team can transform any type of land into a tranquil and functional space.</p>
         </div>
-        <div class="colInner image" style="background-image:url(/images/home_img1.jpg)" />
+        <div class="colInner image" style="background-image:url(/images/home_img7.jpg);" />
         </div> 
       </div>
     </div> 
@@ -182,42 +189,46 @@ function closeFunction() {
     </div>
   </section>
   <section class="servicesHome">
-      <span class="subTitle">Landscape Services</span>
-      <h2>What we do</h2>
-      <div class="col3 layoutCols">
-        <div class="colInner design">
-          <a href="/design">
-            <div class="copy">  
-              <h3>Design</h3>
-            </div>  
-            <div class="image"><img alt="Aslan Logo" 
-            src="/images/serviceImg2.jpg"
-            /></div>
-          </a>  
-        </div>
-        <div class="colInner construction">
-          <a href="/design">
-            <div class="image">
-              <img alt="Aslan Logo" 
-            src="/images/serviceImg3.jpg"
-            />
-            </div>
-            <div class="copy">  
-              <h3>Construction</h3>
-            </div>  
-          </a>  
-        </div>
-        <div class="colInner maintenance">
-          <a href="/design">
-            <div class="copy">  
-              <h3>Maintenance</h3>
-            </div> 
-            <div class="image"><img alt="Aslan Logo" 
-            src="/images/serviceImg1.jpg"
-            /></div>
-          </a>  
-        </div>
+    <span class="subTitle">Landscape Services</span>
+    <h2>What we do</h2>
+    <div class="col3 layoutCols">
+      <div class="colInner design">
+        <a href="/design">
+          <div class="copy">  
+            <h3>Design</h3>
+            <i class="fab fa-pagelines"></i>
+          </div>  
+          <div class="image"><img alt="Aslan Logo" 
+          src="/images/serviceImg6.jpg"
+          /></div>
+        </a>  
       </div>
+      <div class="colInner maintenance">
+        <a href="/maintenance">
+          <div class="image"><img alt="Aslan Logo" 
+          src="/images/serviceImg4.jpg"
+          /></div>
+          <div class="copy">  
+            <h3>Maintenance</h3>
+            <i class="fas fa-cogs"></i>
+          </div> 
+        </a>  
+      </div>
+      <div class="colInner construction">
+        <a href="/construction">
+          <div class="copy">  
+            <h3>Construction</h3>              
+            <i class="fab fa-envira"></i>
+          </div>  
+          <div class="image">
+            <img alt="Aslan Logo" 
+          src="/images/serviceImg5.jpg"
+          />
+          </div>
+        </a>  
+      </div>
+
+    </div>
   </section>
 
 
@@ -236,22 +247,18 @@ function closeFunction() {
       <div class="footer-text">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/about" title="">About</a>
           </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
+
+          <li><a href="/design" title="">Design</a></li>
+          <li><a href="/construction" title="">Construction</a>
+          <li><a href="/maintenance" title="">Maintenance</a></li>
+
           <li>
             <a href="#">Our Work</a>
           </li>
           <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">Free Estimate</a>
+            <a href="/contact" title="">Contact</a>
           </li>
         </ul>
         <p class="copyright">&copy;copyright <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
@@ -263,7 +270,7 @@ function closeFunction() {
 <script>
   WebFontConfig = {
    google: {
-          families: ['Montserrat:300,400,500,600,700', 'Noto Serif:400,700,400italic,700italic', 'Hind:300,400,500,600,700']
+          families: ['Montserrat:300,500,600,700', 'Noto Serif:600', 'Hind:300,500,600']
         }
   };
   (function() {
