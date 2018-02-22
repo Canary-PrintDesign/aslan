@@ -32,7 +32,7 @@ var jsCustomFile            = 'custom'; // Compiled JS custom file name.
 // Default set to custom i.e. custom.js.
 
 // Images related.
-var imagesSRC               = 'src/images/*.{png,jpg,gif,svg}'; // Source folder of images which should be optimized.
+var imagesSRC               = 'src/images/*.{png,jpg,gif,svg,mp4}'; // Source folder of images which should be optimized.
 var imagesDestination       = 'static/images/'; // Destination folder of optimized images. Must be different from the imagesSRC folder.
 
 
@@ -155,7 +155,7 @@ gulp.task('publish', function() {
   var publisher = awspublish.create({
     region: 'ca-central-1',
     params: {
-      Bucket: 'aslan'
+      Bucket: 'aslan.canaryprint.ca'
     }
   });
   var headers = {

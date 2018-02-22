@@ -2,7 +2,7 @@
 title: About Us
 slug: about
 description: something
-BgImg: tout_bg.jpg
+BgImg: tout_bg8.jpg
 blurb: Playing in the yard since 2007
 ---
 <!-- 

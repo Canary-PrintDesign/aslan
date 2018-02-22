@@ -11,7 +11,7 @@
 
 
 <meta name="description" content="something">
-<link rel="stylesheet" href="/css/main-d64207c8.css" />
+<link rel="stylesheet" href="/css/main-ca9e141e.css" />
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon.png">
@@ -22,12 +22,11 @@
     <div class="modal" id="modal">
   <div class="modalContainer">
   	<a href="#" class="close" id="close" onclick="closeFunction()">
-  		<i class="fas fa-times"></i>
   	</a>
     <div class="modalContent">
       <h2>Get in Touch!</h2>
       
-      <p>You can either email us at <a href="mailto:"><i class="fas fa-envelope"></i> email@aslan.com</a>, call us at <a href="tel:255-555-5555"><i class="fas fa-phone"></i> 255-555-5555</a>, or fill in the form below!</p>
+      <p>You can either email us at <a href="mailto:info@aslanventures.ca"><i class="fas fa-envelope"></i> info@aslanventures.ca</a>, call us at <a href="tel:250-954-5367"><i class="fas fa-phone"></i> 250-954-5367</a>, or fill in the form below!</p>
       <div class="formContainer">
       	 <form id="estimate" method="post" action="">
           <div class="other field">
@@ -60,13 +59,13 @@
   <nav class="navSocial">
     <ul class="socialIcons">
       <li class="fb">
-         <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a> 
+         <a href="https://www.facebook.com/Aslanventuresinc/" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a> 
       </li>
       <li class="phone">
-         <a href="#" title="phone"><i class="fas fa-phone"></i></a> 
+         <a href="tel:250-954-5367" title="phone"><i class="fas fa-phone"></i></a> 
       </li>
       <li class="email">
-         <a href="#" title="email"><i class="fas fa-envelope"></i></a> 
+         <a href="mailto:info@aslanventures.ca" title="email"><i class="fas fa-envelope"></i></a> 
       </li>
     </ul>
   </nav>  
@@ -75,8 +74,13 @@
       <li>
         <a href="/about" title="">About</a>
       </li>
-      <li>
-        <a href="/services" title="">Services</a>
+      <li class="serviceDropdown">
+        <a href="/design" title="">Services</a>
+        <ul class="subMenu">
+          <li><a href="/design" title="">Design</a></li>
+          <li><a href="/construction" title="">Construction</a>
+          <li><a href="/maintenance" title="">Maintenance</a></li>
+        </ul>
       </li>
       <li class="logo">
         <a href="/" title="">
@@ -115,7 +119,7 @@ function closeFunction() {
     <main>
       
   <article class="contact">
-    <div class="topTout contentTout" style="background: url('/images/tout_bg.jpg '); ">
+    <div class="topTout contentTout" style="background: url('/images/tout_bg17.jpg '); background-size: cover; background-position: center;">
         <h1>
           Contact
         </h1>
@@ -126,28 +130,36 @@ function closeFunction() {
       	<main class="contact">
   <div class="wrapper">
     <p class="openingLine">One of our qualified consultants would be happy to meet with you see if we can help build that perfect space. Simply call or email Hannah today and arrange a time that is convenient for you.</p>    
-    <p class="getInTouch">You can either email us at <a href="mailto:"><i class="fas fa-envelope"></i> email@aslan.com</a>, call us at <a href="tel:255-555-5555"><i class="fas fa-phone"></i> 255-555-5555</a>, or fill in the form below!</p>
     <div class="formContainer">
-         <form id="estimate" method="post" action="">
+      <div class="contactDetails">
+        <a class="email" href="mailto:info@aslanventures.ca">
+          <i class="fas fa-envelope"></i>
+          <span>info@aslanventures.ca</span>
+        </a>
+        <a href="tel:250-954-5367">
+          <i class="fas fa-phone"></i>
+          <span>250-954-5367</span>
+        </a>
+      </div>
+      <form id="estimate" method="post" action="">
         <div class="other field">
           <label for="name field">Name</label>
-          <input type="text" id="name" name="name" />
+          <input type="text" id="name" name="name" required />
         </div>
         <div class="other field">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
         <div class="other field">
-          <label for="phone">Phone Number</label>
+          <label for="phone">Phone Number <small>(optional)</small></label>
           <input type="phone" id="phone" name="phone" />
         </div>
         <div class="other field">
           <label for="message">Your Message</label>
           <textarea id="message" name="message" rows="8" required ></textarea>
         </div>
-        <input type="submit" class="btn-primary" value="Send in for quote now!" />
+        <input type="submit" class="btn-primary" value="Send Message" />
       </form>
-      <div id="form-messages"></div>
     </div>
   </div>  
 </main>  
@@ -171,22 +183,18 @@ function closeFunction() {
       <div class="footer-text">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/about" title="">About</a>
           </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
+
+          <li><a href="/design" title="">Design</a></li>
+          <li><a href="/construction" title="">Construction</a>
+          <li><a href="/maintenance" title="">Maintenance</a></li>
+
           <li>
             <a href="#">Our Work</a>
           </li>
           <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">Free Estimate</a>
+            <a href="/contact" title="">Contact</a>
           </li>
         </ul>
         <p class="copyright">&copy;copyright <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
@@ -198,7 +206,7 @@ function closeFunction() {
 <script>
   WebFontConfig = {
    google: {
-          families: ['Montserrat:300,400,500,600,700', 'Noto Serif:400,700,400italic,700italic', 'Hind:300,400,500,600,700']
+          families: ['Montserrat:300,500,600,700', 'Noto Serif:600', 'Hind:300,500,600']
         }
   };
   (function() {

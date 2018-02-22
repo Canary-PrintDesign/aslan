@@ -1,5 +1,6 @@
 form{
-textarea,
+	padding: 20px 40px 14px 0px;
+	textarea,
 	input[type="phone"],
     input[type="email"],
     input[type="text"]{
@@ -15,10 +16,10 @@ textarea,
 		height:auto;
 		border-radius: 0!important;
 		-webkit-appearance: none;
-		border: 2px solid $black;
+		border: 1px solid $color-brand-3;
 		color: $black;
 		&:focus{
-			border: 2px solid $color-brand-5;
+			border: 1px solid $color-brand-5;
 			opacity:1;
 			transition: .2s all;
 			&::-webkit-input-placeholder{
@@ -39,38 +40,42 @@ textarea,
     	text-transform: uppercase;
     	display: block;
     	font-size: 20px;
-    	color:$black;
+    	font-weight: 600;
+    	color: $color-brand-3;
+    	small {
+    		font-size: 14px;
+    	}
     }
     textarea {
     	height: 150px;
     }
     input[type="submit"]{
-		cursor: pointer;
-		padding: 12px 10px 14px;
-		font-size: 20px;
-		letter-spacing: .055em;
-		font-weight: 500;
-		border: none;
-		outline: none;
-		background: none;
-		width: 100%;
-		text-align: center;
-		text-transform: uppercase;
-		color: #fff;
-		text-decoration: none;
-		display: block;
-		height: auto !important;
-		-webkit-appearance: none;
-		margin-top:20px;
-		border-radius: 4px;
-		margin-bottom: 30px;
-		transition: all .25s;
-		background: $color-brand-5;
-		&:hover{
+			cursor: pointer;
+			padding: 24px 10px 26px;
+			font-size: 20px;
+			letter-spacing: .055em;
+			font-weight: 700;
+			border: none;
+			outline: none;
+			background: none;
+			width: 100%;
+			text-align: center;
+			text-transform: uppercase;
+			color: #fff;
+			text-decoration: none;
+			display: block;
+			height: auto !important;
+			-webkit-appearance: none;
+			margin-top:5px;
+			border-radius: 4px;
+			margin-bottom: 30px;
+			transition: all .25s;
 			background: $color-brand-5;
-			color: $white;
-			border: 4px solid $black;
-
-		}
+			border: 4px solid $color-brand-5;
+			font-family: $fontFamily;
+			&:hover{
+				background: #61a56a;
+				color: $white;
+			}
     }
   }
