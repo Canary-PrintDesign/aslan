@@ -18,14 +18,13 @@ There is no challenge big enough to intimidate us. With our years of experience 
 
 ## We use creativity and hard work
 
-When it comes to renovation, people are sometimes anxious about the complexity of reforming the existing landscape. So relax, from small changes to a complete overhaul, we can turn any old yard into a space that you will enjoy, use, and appreciate for years. (A little elbow grease)? Lighten the mood?
+When it comes to renovation, people are sometimes anxious about the complexity of reforming the existing landscape. So relax, from small changes to a complete overhaul, we can turn any old yard into a space that you will enjoy, use, and appreciate for years.
 
 ## A small glimpse at our services
 
 Here is a sample of our wide range of services:
 
-*   Trees and shrubs
-* Sheds and shelters
+* Trees and shrubs
 * Water features and bridges
 * Irrigation systems
 * Benches and arbors
@@ -33,7 +32,4 @@ Here is a sample of our wide range of services:
 * Gardens
 * Lawn installation
 * Artificial grass and golf greens
-* Gardens
 * Fences
-
-
