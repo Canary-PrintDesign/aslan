@@ -3,6 +3,8 @@
 .DS_Store
 .sass-cache
 build/
+public/
+static/
 
 node_modules/
 data/**/hash.*
