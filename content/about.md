@@ -5,7 +5,7 @@ description: something
 BgImg: tout_bg8.jpg
 blurb: Playing in the yard since 2007
 ---
-<!-- 
+<!--
 {{< figure src="/images/tout_bg.jpg" title="Photo by Ales Krivec on Unsplash" >}} -->
 
 Inspired by the breath-taking natural beauty of Vancouver Island, Aslan was founded over ten years ago by Chris and his love for creativity and outdoor space. Since then, a passionate group of people have joined him in his adventure of making every yard an enchanting space for every client.
@@ -22,13 +22,13 @@ Does this sound like a good fit for you? Get your [free consultation and estimat
 
 ### Chris
 
-CEO and owner of Aslan, Chris is everywhere and working on every project all at the same time. Although this is not his original career path, he likes to say that landscaping found him. With his appreciation for art and beauty, he gets to use his creative mind everyday in designing beautiful landscapes and outdoor living spaces for his clients. As for spending all this time outside enjoying the amazing West Coast climate? It’s just a bonus.
+CEO and owner of Aslan, Chris is everywhere and working on every project all at the same time. Although this is not his original career path, he likes to say that landscaping found him. With his appreciation for art and beauty, he gets to use his creative mind everyday bringing to life beautiful landscapes and outdoor living spaces.
 
 {{< figure src="/images/hannah.png" title="Photo of Hannah" >}}
 
 ### Hannah
 
-Acting both as a CEO support and as the office manager, Hannah has been working alongside Chris for a long time and knows everything about the landscaping business. Kind and knowledgeable, she is the person to go to for anything regarding your project, from arranging a consultation to giving you the latest news.
+Acting both as a CEO support and as the office manager, Hannah has been working alongside Chris for a long time. Kind and knowledgeable, she is the person to go to for anything regarding your project, from arranging a consultation to giving you the latest news.
 
 {{< figure src="/images/Laura.png" title="Photo of laura" >}}
 
@@ -40,13 +40,13 @@ Laura brings a veteran presence to the team and years of experience in the lands
 
 ### Angie
 
-Passionate and reliable, Angie has a true gift for creating exceptional landscapes. With her extraordinary leadership and organizational skills, she was the natural choice for leading one of our maintenance crews and ensuring the best service to our clients. 
+Passionate and reliable, Angie has a true gift for creating exceptional landscapes. With her extraordinary leadership and organizational skills, she was the natural choice for leading one of our maintenance crews and ensuring the best service to our clients.
 
 {{< figure src="/images/andrew.png" title="Photo of Andrew" >}}
 
 ### Andrew
 
-Hardworking and dedicated, Andrew loves the satisfaction of a job well done. Taking his work ethic from his upbringing on a farm, he has the greatest mix of expertise and muscle to tackle any landscaping job. He has been with us since 2001, and we are always impressed by his knowledge and expertise.
+Hardworking and dedicated, Andrew loves the satisfaction of a job well done. Taking his work ethic from his upbringing on a farm, he has the greatest mix of expertise and muscle to tackle any landscaping job. He has been with us since 2001, and is truly part of the Aslan family.
 
 {{< figure src="/images/dan.png" title="Photo of Dan" >}}
 

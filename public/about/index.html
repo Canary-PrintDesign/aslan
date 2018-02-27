@@ -11,7 +11,7 @@
 
 
 <meta name="description" content="something">
-<link rel="stylesheet" href="/css/main-ca9e141e.css" />
+<link rel="stylesheet" href="/css/main-c21f28fc.css" />
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon.png">
@@ -55,53 +55,63 @@
 
     
 
-<header>    
-  <nav class="navSocial">
-    <ul class="socialIcons">
-      <li class="fb">
-         <a href="https://www.facebook.com/Aslanventuresinc/" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a> 
-      </li>
-      <li class="phone">
-         <a href="tel:250-954-5367" title="phone"><i class="fas fa-phone"></i></a> 
-      </li>
-      <li class="email">
-         <a href="mailto:info@aslanventures.ca" title="email"><i class="fas fa-envelope"></i></a> 
-      </li>
-    </ul>
-  </nav>  
-  <nav class="navPrimary">
-    <ul>
-      <li>
-        <a href="/about" title="">About</a>
-      </li>
-      <li class="serviceDropdown">
-        <a href="/design" title="">Services</a>
-        <ul class="subMenu">
-          <li><a href="/design" title="">Design</a></li>
-          <li><a href="/construction" title="">Construction</a>
-          <li><a href="/maintenance" title="">Maintenance</a></li>
-        </ul>
-      </li>
-      <li class="logo">
-        <a href="/" title="">
-          <img alt="Aslan Logo" 
-          src="/images/aslanlogo.png" 
-          srcset="/images/aslanlogo@2x.png 2x"
-          />
-        </a>
-      </li>
-      <li>
-        <a href="#">Our Work</a>
-      </li>
-      <li>
-        <a href="/contact" title="">Contact</a>
-      </li>
-      <li href="#" class="quote">
-        <a href="#" class="btnPrimary" onclick="modalFunction()">Get in Touch for a <br /> <span>Free Quote</span></a>
-      </li>
-    </ul>
-  </nav>
-</header> 
+<header>
+  <a class="mobile" href="/" title="">
+    <img alt="Aslan Logo"
+    src="/images/aslanlogoAlt.png"
+    srcset="/images/aslanlogoAlt@2x.png 2x"
+    />
+  </a>
+ <button id="opennav" class="mobile burger" onclick="openNav()" aria-label="Navigation Menu" aria-expanded="false">☰</button>
+
+  <div class="headerContainer" id="mySidenav">
+    <nav class="navSocial">
+      <ul class="socialIcons">
+        <li class="fb">
+           <a href="https://www.facebook.com/Aslanventuresinc/" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="phone">
+           <a href="tel:250-954-5367" title="phone"><i class="fas fa-phone"></i></a>
+        </li>
+        <li class="email">
+           <a href="mailto:info@aslanventures.ca" title="email"><i class="fas fa-envelope"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navPrimary">
+      <ul>
+        <li>
+          <a href="/about" title="">About</a>
+        </li>
+        <li class="serviceDropdown">
+          <a href="/design" title="">Services</a>
+          <ul class="subMenu">
+            <li><a href="/design" title="">Design</a></li>
+            <li><a href="/construction" title="">Construction</a></li>
+            <li><a href="/maintenance" title="">Maintenance</a></li>
+          </ul>
+        </li>
+        <li class="logo">
+          <a href="/" title="">
+            <img alt="Aslan Logo"
+            src="/images/aslanlogo.png"
+            srcset="/images/aslanlogo@2x.png 2x"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">Our Work</a>
+        </li>
+        <li>
+          <a href="/contact" title="">Contact</a>
+        </li>
+        <li href="#" class="quote">
+          <a href="#" class="btnPrimary" onclick="modalFunction()">Get in Touch for a <br /> <span>Free Quote</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 <script>
 function modalFunction() {
@@ -114,9 +124,41 @@ function closeFunction() {
    element.classList.remove("modalToggle");
    return false;
 }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "50%";
+    document.getElementById("mySidenav").style.visibility = "visible";
+    var mainLinks = document.getElementById("main").getElementsByTagName("a");
+    for (var i = 0; i < mainLinks.length; i++) {
+      mainLinks[i].setAttribute('tabindex', '-1');
+    }
+    var mainButtons = document.getElementById("main").getElementsByTagName("button");
+    for (var i = 0; i < mainButtons.length; i++) {
+      mainButtons[i].setAttribute('disabled', 'true');
+    }
+    setTimeout(function(){ document.getElementById("closenav").focus(); }, 500);
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("mySidenav").style.visibility = "hidden";
+    document.getElementById("main").removeAttribute('aria-hidden');
+    var mainLinks = document.getElementById("main").getElementsByTagName("a");
+    for (var i = 0; i < mainLinks.length; i++) {
+      mainLinks[i].removeAttribute('tabindex');
+    }
+    var mainButtons = document.getElementById("main").getElementsByTagName("button");
+    for (var i = 0; i < mainButtons.length; i++) {
+      mainButtons[i].removeAttribute('disabled');
+    }
+    document.getElementById("opennav").focus();
+}
+
 </script>
 
-    <main>
+    <main id="main">
       
   <article class="about">
     <div class="topTout contentTout" style="background: url('/images/tout_bg8.jpg '); background-size: cover; background-position: center;">
@@ -129,7 +171,7 @@ function closeFunction() {
     	<div class="wrapper">
       	
 
-<!-- 
+<!--
 <figure>
   <img src="/images/tout_bg.jpg" alt="Photo by Ales Krivec on Unsplash">
 </figure>
@@ -153,7 +195,7 @@ Does this sound like a good fit for you? Get your <a href="http://example.com/" 
 
 <h3 id="chris">Chris</h3>
 
-<p>CEO and owner of Aslan, Chris is everywhere and working on every project all at the same time. Although this is not his original career path, he likes to say that landscaping found him. With his appreciation for art and beauty, he gets to use his creative mind everyday in designing beautiful landscapes and outdoor living spaces for his clients. As for spending all this time outside enjoying the amazing West Coast climate? It’s just a bonus.</p>
+<p>CEO and owner of Aslan, Chris is everywhere and working on every project all at the same time. Although this is not his original career path, he likes to say that landscaping found him. With his appreciation for art and beauty, he gets to use his creative mind everyday bringing to life beautiful landscapes and outdoor living spaces.</p>
 
 <figure>
   <img src="/images/hannah.png" alt="Photo of Hannah">
@@ -162,7 +204,7 @@ Does this sound like a good fit for you? Get your <a href="http://example.com/" 
 
 <h3 id="hannah">Hannah</h3>
 
-<p>Acting both as a CEO support and as the office manager, Hannah has been working alongside Chris for a long time and knows everything about the landscaping business. Kind and knowledgeable, she is the person to go to for anything regarding your project, from arranging a consultation to giving you the latest news.</p>
+<p>Acting both as a CEO support and as the office manager, Hannah has been working alongside Chris for a long time. Kind and knowledgeable, she is the person to go to for anything regarding your project, from arranging a consultation to giving you the latest news.</p>
 
 <figure>
   <img src="/images/Laura.png" alt="Photo of laura">
@@ -189,7 +231,7 @@ Does this sound like a good fit for you? Get your <a href="http://example.com/" 
 
 <h3 id="andrew">Andrew</h3>
 
-<p>Hardworking and dedicated, Andrew loves the satisfaction of a job well done. Taking his work ethic from his upbringing on a farm, he has the greatest mix of expertise and muscle to tackle any landscaping job. He has been with us since 2001, and we are always impressed by his knowledge and expertise.</p>
+<p>Hardworking and dedicated, Andrew loves the satisfaction of a job well done. Taking his work ethic from his upbringing on a farm, he has the greatest mix of expertise and muscle to tackle any landscaping job. He has been with us since 2001, and is truly part of the Aslan family.</p>
 
 <figure>
   <img src="/images/dan.png" alt="Photo of Dan">
@@ -251,7 +293,7 @@ Does this sound like a good fit for you? Get your <a href="http://example.com/" 
 <script>
   WebFontConfig = {
    google: {
-          families: ['Montserrat:300,500,600,700', 'Noto Serif:600', 'Hind:300,500,600']
+          families: ['Montserrat:300,500,600,700', 'Ramaraja', 'Hind:300,500,600']
         }
   };
   (function() {

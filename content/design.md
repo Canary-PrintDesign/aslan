@@ -19,13 +19,13 @@ A captivating landscape begins with an inspired design. Begin with a strong foun
 
 ## A yard full of potential
 
-A truly stunning landscape will respond to your needs while being completely adapted to the wind direction, sun angle, slope, and other physical characteristics of your yard. 
+A truly stunning landscape will respond to your needs while being completely adapted to the wind direction, sun angle, slope, and other physical characteristics of your yard.
 
 ## The Aslan Guarantee
 
 From planning to maintenance, let us handle all the hard work while you relax. We guarantee that you will be delighted by your landscaping investment.
 
-{{< figure src="/images/plan_black_white.jpg" title="Photo of design draft" >}} 
-{{< figure src="/images/plan_irrigation.jpg" title="Photo of design draft" >}} 
-{{< figure src="/images/plan_color.jpg" title="Photo of design draft" >}} 
+{{< figure src="/images/plan_black_white.jpg" title="Photo of design draft" >}}
+{{< figure src="/images/plan_irrigation.jpg" title="Photo of design draft" >}}
+{{< figure src="/images/plan_color.jpg" title="Photo of design draft" >}}
 
