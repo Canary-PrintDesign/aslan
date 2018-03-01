@@ -8,7 +8,7 @@ blurb: Every project starts with a question or two, we get that. So give us a ca
 
 <main class="contact">
   <div class="wrapper">
-    <p class="openingLine">One of our qualified consultants would be happy to meet with you to see if we can help build that perfect space. Simply call or email Hannah today and arrange a time that is convenient for you.</p>
+    <p class="openingLine">One of our qualified consultants would be happy to meet with you to help build that perfect space. Simply call or email Hannah today and arrange a time that is convenient for you.</p>
     <div class="formContainer">
       <div class="contactDetails">
         <a class="email" href="mailto:info@aslanventures.ca">

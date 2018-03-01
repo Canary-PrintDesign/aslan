@@ -14,7 +14,7 @@ blurb: Enjoy your landscape
   </ul>
 </nav>
 
-~Get the greenest and most enviable yard in the neighbourhood  with our maintenance service.~ Our qualified staff can take care of any maintenance project that you can’t find the time for. From seasonal, to weekly maintenance, we will provide the best treatment for your little oasis.
+Our qualified staff can take care of any maintenance project that you can’t find the time for. From seasonal, to weekly maintenance, we will provide the best treatment for your little oasis.
 
 Here is a sample of some services we provide:
 
