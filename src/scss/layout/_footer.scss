@@ -1,7 +1,7 @@
 footer {
 	background: #1b1b1b;
 	text-align: center;
-	padding: 40px;
+	padding: 22px 0px 26px;
 
 	blockquote,
 	p {
@@ -14,18 +14,27 @@ footer {
 	}
 }
 .footerContainer {
-	padding: 30px 20px;
+	padding: 38px 0px;
+	@include mq($until: tablet) {
+		background-position: center bottom!important;
+		padding-bottom: 260px;
+		ul {
+			margin-bottom: 20px;
+		}
+	}
 	.footer-text {
 		a {
 			color: #fff;
-			text-decoration: none;	
+			text-decoration: none;
 			padding: 20px 15px;
 			display: block;
 			font-weight: 300;
 		}
 		li {
 			display: inline-block;
-			margin-bottom: 40px;
+			@include mq($from: tablet) {
+				margin-bottom: 40px;
+			}
 		}
 	}
 }

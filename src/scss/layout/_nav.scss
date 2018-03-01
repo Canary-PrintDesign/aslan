@@ -1,10 +1,18 @@
 .navPrimary {
 	text-align: center;
 	> ul {
-		display: flex;
 		max-width: 820px;
 		margin: 0 auto;
 		align-items: center;
+		@include mq($until: wide) {
+  		max-width: 620px;
+  	}
+  	@include mq($from: tablet) {
+			display: flex;
+  	}
+  	@include mq($from: tablet, $until: desktop) {
+			margin-top: 50px;
+  	}
 	}
 	 li {
 		flex: 1;
@@ -19,13 +27,19 @@
 
 	}
 	.quote {
-		position: fixed;
-		right: 0px;
-		top: 0px;
+		@include mq($from: tablet) {
+			position: fixed;
+			right: 0px;
+			top: 0px;
+		}
 		flex: none;
 		a {
 			letter-spacing: 0;
     	box-shadow: 0px 1px 10px 0px rgba(8, 8, 8, 0.27);
+    	@include mq($until: wide) {
+		  	padding: 11px 15px 13px 15px;
+		  	font-size: 16px;
+		  }
 		}
 	}
 	.btnPrimary {
@@ -39,9 +53,29 @@
 }
 
 .navSocial {
-	position: absolute;
+	@include mq($from: tablet) {
+		position: fixed;
+  	left: 0;
+	}
+	@include mq($until: tablet) {
+		background: none;
+	}
+  background: #202627;
+  padding: 5px 12px 2px 20px;
+  @include mq($until: wide) {
+  	top: 0;
+  }
 }
-
+.logo img{
+	@include mq($until: wide) {
+		max-width: 70px;
+	}
+}
+.logo {
+	@include mq($until: tablet) {
+		display: none;
+	}
+}
 .socialIcons {
 	li {
 		display: inline-block;
@@ -51,6 +85,9 @@
 		font-size: 24px;
 		padding: 10px 15px 15px 8px;
 		display: block;
+	}
+	@include mq($until: tablet) {
+		text-align: center;
 	}
 }
 .serviceDropdown {
@@ -65,8 +102,9 @@
 	display: none;
 	position: absolute;
 	top: 100%;
-	width: 120%;
-	background: $color-brand-3;
+  font-size: 16px;
+  width: 100%;
+  background: rgba(33,38,39,0.8);
 	padding: 12px 12px 16px;
 	li {
 		padding-bottom: 0;
@@ -87,6 +125,7 @@
 			text-align: center;
 			margin: 0 5px;
 			border-radius: 4px 4px 0 0;
+			background: #eee;
 			&:hover {
 				a {color: #fff;}
 				background: $color-brand-5;
@@ -106,4 +145,22 @@
 			}
 		}
 	}
+}
+.mobile {
+	display: none;
+	@include mq($until: tablet) {
+		display: block;
+	}
+	img {
+		max-width: 40px;
+	}
+}
+#opennav {
+	position: absolute;
+  right: 10px;
+  top: 8px;
+  font-size: 40px;
+  border: none;
+  background: none;
+  color: $color-brand-4;
 }
