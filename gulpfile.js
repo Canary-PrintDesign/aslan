@@ -32,7 +32,7 @@ var jsCustomFile            = 'custom'; // Compiled JS custom file name.
 // Default set to custom i.e. custom.js.
 
 // Images related.
-var imagesSRC               = 'src/images/*.{png,jpg,gif,svg,mp4}'; // Source folder of images which should be optimized.
+var imagesSRC               = 'src/images/*.{png,jpg,gif,svg}'; // Source folder of images which should be optimized.
 var imagesDestination       = 'static/images/'; // Destination folder of optimized images. Must be different from the imagesSRC folder.
 
 
@@ -57,9 +57,9 @@ var imagemin     = require('gulp-imagemin');
 var del          = require("del"),
     hash         = require("gulp-hash"),
     lineec       = require('gulp-line-ending-corrector'),
-    notify       = require('gulp-notify'), 
-    browserSync  = require('browser-sync').create(), 
-    reload       = browserSync.reload, 
+    notify       = require('gulp-notify'),
+    browserSync  = require('browser-sync').create(),
+    reload       = browserSync.reload,
     del          = require("del"),
     hash         = require("gulp-hash");
 
@@ -90,7 +90,7 @@ gulp.task("scss", function () {
     .pipe(gulp.dest("static/css"))
     .pipe(hash.manifest("hash.json"))
     .pipe(gulp.dest("data/css"))
-    .pipe( browserSync.stream() ) 
+    .pipe( browserSync.stream() )
     .pipe( notify( { message: 'TASK: "styles" Completed! 💯', onLast: true } ) )
 })
 
@@ -114,11 +114,11 @@ gulp.task( 'vendorsJs', function() {
   del([jsVendorDestination])
   gulp.src( jsVendorSRC )
     .pipe( concat( jsVendorFile + '.js' ) )
-    .pipe( lineec() ) 
+    .pipe( lineec() )
     .pipe(hash())
     .pipe( gulp.dest( jsVendorDestination ) )
     .pipe( uglify() )
-    .pipe( lineec() ) 
+    .pipe( lineec() )
     .pipe(hash.manifest("hash.json"))
     .pipe( gulp.dest( jsVendorDestination ) )
     .pipe( notify( { message: 'TASK: "vendorsJs" Completed! 💯', onLast: true } ) );
@@ -128,7 +128,7 @@ gulp.task( 'vendorsJs', function() {
     del([jsCustomDestination])
     gulp.src( jsCustomSRC )
     .pipe( concat( jsCustomFile + '.js' ) )
-    .pipe( lineec() ) 
+    .pipe( lineec() )
     .pipe(hash())
     .pipe( gulp.dest( jsCustomDestination ) )
     .pipe(jshint())
@@ -147,7 +147,7 @@ gulp.task("default", ["scss", "images", "vendorsJs", "customJS", "browser-sync"]
   gulp.watch("src/images/**/*", ["images"])
   gulp.watch( "layouts/**/*.html", [ reload ] );
   gulp.watch( jsVendorSRC, [ 'vendorsJs', reload ] );
-  gulp.watch( jsCustomSRC, [ 'customJS', reload ] ); 
+  gulp.watch( jsCustomSRC, [ 'customJS', reload ] );
 });
 
 // Publish to AWS S3
