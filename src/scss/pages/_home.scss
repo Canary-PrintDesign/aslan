@@ -23,7 +23,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-image: linear-gradient(286deg, rgba(40,83,104,0.20), rgba(48,42,47,0.22));
+    background-image: linear-gradient(0deg, rgba(40,83,104,0.20), rgba(68,130,121,0.32));
     @include mq($until: desktop) {
       // background: url('../images/hero-bg-mobile.jpg') no-repeat;
       // background-size: cover;
@@ -49,7 +49,7 @@
     font-weight: 500;
     line-height: 1.5;
     text-transform: none;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.06em;
     @include mq($until: tablet) {
   		font-size: 42px;
   	}

@@ -17,9 +17,9 @@ blurb: The beginning of something great
 
 A captivating landscape begins with an inspired design. Begin with a strong foundation, and engineer a plan that matches your vision.
 
-## A yard full of potential
+## True innovation
 
-A truly stunning landscape will respond to your needs while being completely adapted to the wind direction, sun angle, slope, and other physical characteristics of your yard.
+Through innovative action we are able to utilize the ability of your landscape to adapt to the wind direction, sun angle, slope, and other physical characteristics of your yard.
 
 ## The Aslan Guarantee
 
