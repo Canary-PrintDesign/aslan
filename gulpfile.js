@@ -55,26 +55,26 @@ var imagemin     = require('gulp-imagemin');
 
 // Utility related plugins.
 var del          = require("del"),
-    hash         = require("gulp-hash"),
+    // hash         = require("gulp-hash"),
     lineec       = require('gulp-line-ending-corrector'),
     notify       = require('gulp-notify'),
-    browserSync  = require('browser-sync').create(),
-    reload       = browserSync.reload,
+    // browserSync  = require('browser-sync').create(),
+    // reload       = browserSync.reload,
     del          = require("del"),
     hash         = require("gulp-hash");
 
 var awspublish = require('gulp-awspublish');
 
-gulp.task( 'browser-sync', function() {
-  browserSync.init( {
+// gulp.task( 'browser-sync', function() {
+//   browserSync.init( {
 
-    // Project URL.
-    proxy: projectURL,
-    open: true,
-    injectChanges: true,
+//     // Project URL.
+//     proxy: projectURL,
+//     open: true,
+//     injectChanges: true,
 
-  } );
-});
+//   } );
+// });
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -90,7 +90,7 @@ gulp.task("scss", function () {
     .pipe(gulp.dest("static/css"))
     .pipe(hash.manifest("hash.json"))
     .pipe(gulp.dest("data/css"))
-    .pipe( browserSync.stream() )
+    // .pipe( browserSync.stream() )
     .pipe( notify( { message: 'TASK: "styles" Completed! 💯', onLast: true } ) )
 })
 
@@ -142,12 +142,12 @@ gulp.task( 'vendorsJs', function() {
  });
 
 // Watch asset folder for changes
-gulp.task("default", ["scss", "images", "vendorsJs", "customJS", "browser-sync"], function () {
+gulp.task("default", ["scss", "images", "vendorsJs", "customJS"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
   gulp.watch("src/images/**/*", ["images"])
-  gulp.watch( "layouts/**/*.html", [ reload ] );
-  gulp.watch( jsVendorSRC, [ 'vendorsJs', reload ] );
-  gulp.watch( jsCustomSRC, [ 'customJS', reload ] );
+  gulp.watch( "layouts/**/*.html" );
+  gulp.watch( jsVendorSRC, [ 'vendorsJs' ] );
+  gulp.watch( jsCustomSRC, [ 'customJS' ] );
 });
 
 // Publish to AWS S3
