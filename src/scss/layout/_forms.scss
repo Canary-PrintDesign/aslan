@@ -16,11 +16,13 @@ form{
 		height:auto;
 		border-radius: 0!important;
 		-webkit-appearance: none;
-		border: 1px solid $color-brand-3;
+		border: 1px solid $color-brand-2;
 		color: $black;
+		transition: ease-in-out, all .35s ease-in-out;
 		&:focus{
-			border: 1px solid $color-brand-5;
+			border: 1px solid $color-brand-3;
 			opacity:1;
+			background: #e0efea;
 			transition: .2s all;
 			&::-webkit-input-placeholder{
 				opacity:0;
@@ -41,7 +43,7 @@ form{
     	display: block;
     	font-size: 20px;
     	font-weight: 600;
-    	color: $color-brand-3;
+    	color: $color-brand-2;
     	small {
     		font-size: 14px;
     	}

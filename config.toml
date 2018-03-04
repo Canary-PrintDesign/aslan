@@ -36,3 +36,8 @@ title = "Aslan Ventures"
   weight = -90
   identifier = "contact"
   url = "/contact/"
+[[menu.pages]]
+  name = "Our Work"
+  weight = -90
+  identifier = "work"
+  url = "/work/"

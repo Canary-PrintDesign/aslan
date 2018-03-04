@@ -50,9 +50,15 @@
     line-height: 1.5;
     text-transform: none;
     letter-spacing: -0.06em;
+    position: relative;
+    z-index: 2;
     @include mq($until: tablet) {
   		font-size: 42px;
   	}
+  }
+  p {
+  	z-index: 2;
+  	position: relative;
   }
   .copyContainer {
   	position: relative;
@@ -142,16 +148,16 @@
 				padding-top: 0px;
 			}
 			h3,p {
-				color: $color-brand-3;
+				color: $color-brand-4;
 				-webkit-font-smoothing: antialiased;
   			-moz-osx-font-smoothing: grayscale;
 			}
 			p {
-				font-size: 22px;
+				font-size: 28px;
 				line-height: 1.6;
 			}
 			h3 {
-				color: #365050;
+				color: $color-brand-3;
 		    font-size: 35px;
 		    font-weight: 600;
 		    letter-spacing: .05em;
@@ -261,7 +267,7 @@
 		font-size: 52px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 1.75;
 	}
 	.copyContainer {
@@ -417,7 +423,7 @@
 	.design {
 		a,
 		.copy{
-			background: #13423f;
+			background: #1a524f;
 		}
 	}
 	.maintenance {
@@ -442,7 +448,7 @@
 	.construction {
 		a,
 		.copy{
-			background: #1d312e;
+			background: #1a363a;
 		}
 	}
 }
