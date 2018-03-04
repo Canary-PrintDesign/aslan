@@ -26,4 +26,3 @@ Here is a sample of some services we provide:
 * Yard clean ups
 * Full year maintenance programs
 * Strata and commercial care
-

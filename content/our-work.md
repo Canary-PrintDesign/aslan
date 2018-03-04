@@ -7,6 +7,3 @@ blurb: The beginning of something great
 type: work
 layout: work
 ---
-
-
-

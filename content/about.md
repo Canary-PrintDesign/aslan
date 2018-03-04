@@ -59,4 +59,3 @@ Dan came to us with a mixed bag of expertise in the industrial world, backed by 
 ### Tysen
 
 Tysen came to us from Bear Mountain where he worked on the landscape maintenance crew. He assumed the role of crew chief and continues to exercise his ability to learn and grow in the industry. His contagious smile and warm soul are sure to win you over.
-

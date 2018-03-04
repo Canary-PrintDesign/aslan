@@ -25,7 +25,6 @@ Through innovative action we are able to utilize the ability of your landscape t
 
 From planning to maintenance, let us handle all the hard work while you relax. We guarantee that you will be delighted by your landscaping investment.
 
-{{< figure src="/images/plan_black_white.jpg" title="Photo of design draft" >}}
-{{< figure src="/images/plan_irrigation.jpg" title="Photo of design draft" >}}
-{{< figure src="/images/plan_color.jpg" title="Photo of design draft" >}}
-
+{{< figure src="/images/plan-black-white.jpg" title="Photo of design draft" >}}
+{{< figure src="/images/plan-irrigation.jpg" title="Photo of design draft" >}}
+{{< figure src="/images/plan-color.jpg" title="Photo of design draft" >}}
