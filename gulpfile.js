@@ -165,5 +165,6 @@ gulp.task('publish', function() {
     .pipe(awspublish.gzip())
     .pipe(publisher.publish(headers))
     .pipe(publisher.cache())
+    .pipe(publisher.sync('aslan-vid.mp4'))
     .pipe(awspublish.reporter());
 });
