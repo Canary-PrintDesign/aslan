@@ -20,7 +20,7 @@ blurb: Every project starts with a question or two, we get that. So give us a ca
           <span>250-954-5367</span>
         </a>
       </div>
-      <form id="estimate" method="post" action="">
+      <form id="estimate" method="post" action="https://static-files.canaryprint.ca/aslanventures.com/mailer.php">
         <div class="other field">
           <label for="name field">Name</label>
           <input type="text" id="name" name="name" required />
