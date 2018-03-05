@@ -6,6 +6,7 @@ build/
 public/
 static/css
 static/images
+.awspublish*
 
 node_modules/
 data/**/hash.*
