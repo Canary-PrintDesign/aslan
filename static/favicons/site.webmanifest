@@ -15,6 +15,5 @@
     ],
     "theme_color": "#1a524f",
     "background_color": "#1a524f",
-    "start_url": "https://aslanventures.com",
     "display": "standalone"
 }
