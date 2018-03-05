@@ -4,7 +4,8 @@
 .sass-cache
 build/
 public/
-static/
+static/css
+static/images
 
 node_modules/
 data/**/hash.*
