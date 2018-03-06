@@ -7,38 +7,36 @@ blurb: Every project starts with a question or two, we get that. So give us a ca
 ---
 
 <main class="contact">
-  <div class="wrapper">
-    <p class="openingLine">One of our qualified consultants would be happy to meet with you to help build that perfect space. Simply call or email Hannah today and arrange a time that is convenient for you.</p>
-    <div class="formContainer">
-      <div class="contactDetails">
-        <a class="email" href="mailto:info@aslanventures.ca">
-          <i class="fas fa-envelope"></i>
-          <span>info@aslanventures.ca</span>
-        </a>
-        <a href="tel:250-954-5367">
-          <i class="fas fa-phone"></i>
-          <span>250-954-5367</span>
-        </a>
-      </div>
-      <form id="estimate" method="post" action="https://static-files.canaryprint.ca/aslanventures.com/mailer.php">
-        <div class="other field">
-          <label for="name field">Name</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="other field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="other field">
-          <label for="phone">Phone Number <small>(optional)</small></label>
-          <input type="phone" id="phone" name="phone" />
-        </div>
-        <div class="other field">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" rows="8" required ></textarea>
-        </div>
-        <input type="submit" class="btn-primary" value="Send Message" />
-      </form>
+  <p class="openingLine">One of our qualified consultants would be happy to meet with you to help build that perfect space. Simply call or email Hannah today and arrange a time that is convenient for you.</p>
+  <div class="formContainer">
+    <div class="contactDetails">
+      <a class="email" href="mailto:info@aslanventures.ca">
+        <i class="fas fa-envelope"></i>
+        <span>info@aslanventures.ca</span>
+      </a>
+      <a href="tel:250-954-5367">
+        <i class="fas fa-phone"></i>
+        <span>250-954-5367</span>
+      </a>
     </div>
+    <form id="estimate" method="post" action="https://static-files.canaryprint.ca/aslanventures.com/mailer.php">
+      <div class="other field">
+        <label for="name field">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="other field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="other field">
+        <label for="phone">Phone Number <small>(optional)</small></label>
+        <input type="phone" id="phone" name="phone" />
+      </div>
+      <div class="other field">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="8" required ></textarea>
+      </div>
+      <input type="submit" class="btn-primary" value="Send Message" />
+    </form>
   </div>
 </main>

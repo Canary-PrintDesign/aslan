@@ -13,7 +13,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   @include mq($until: tablet) {
-  	padding-top: 100px;
+  	// padding-top: 130px;
+  	padding: 160px 15px 0;
+  	min-height: 345px;
   }
   &:after{
     width: 100%;
@@ -53,12 +55,15 @@
     position: relative;
     z-index: 2;
     @include mq($until: tablet) {
-  		font-size: 42px;
+  		font-size: 36px;
   	}
   }
   p {
   	z-index: 2;
   	position: relative;
+  	@include mq($until: tablet) {
+  		font-size: 20px;
+  	}
   }
   .copyContainer {
   	position: relative;
@@ -66,6 +71,9 @@
   	max-width: 900px;
   	margin: 0 auto;
   	padding-top: 110px;
+  	@include mq($until: tablet) {
+  		padding: 50px 20px 0;
+  	}
   	p {
 	  	color: #fff;
 	  	font-size: 28px;
@@ -81,6 +89,11 @@
 		    letter-spacing: 0.3em;
 		    font-size: 24px;
 		    margin-bottom: 16px;
+		    @include mq($until: tablet) {
+		    	font-size: 20px;
+		    	padding: 12px 12px 18px;
+		    	margin-bottom: 12px;
+		    }
 			}
 	  }
 	}
@@ -128,7 +141,9 @@
 		margin-bottom: 0;
 	  font-family: $fontFamily;
 	  letter-spacing: 0.05em;
-
+		@include mq($until: tablet) {
+			font-size: 14px;
+		}
 	}
 }
 
@@ -145,7 +160,7 @@
 			position: relative;
 			@include mq($until: tablet) {
 				flex: none;
-				padding-top: 0px;
+				padding: 20px 20px 40px;
 			}
 			h3,p {
 				color: $color-brand-4;
@@ -155,6 +170,9 @@
 			p {
 				font-size: 28px;
 				line-height: 1.6;
+				@include mq($until: tablet) {
+					font-size: 22px;
+				}
 			}
 			h3 {
 				color: $color-brand-3;
@@ -177,7 +195,7 @@
 			}
 			@include mq($until: tablet) {
 				background-size: cover;
-				min-height: 300px;
+				// min-height: 300px;
 			}
 			img {
 				max-width: 100%;
@@ -224,10 +242,16 @@
 		}
 		.image {
 			min-height: 500px;
+			@include mq($until: tablet) {
+				min-height: 300px;
+			}
 		}
 		.col2 {
 			padding-bottom: 120px;
     	margin-bottom: 0;
+    	@include mq($until: tablet) {
+    		padding-bottom: 0px;
+    	}
 		}
 	}
 }
@@ -269,6 +293,9 @@
 	p {
 		font-size: 24px;
 		line-height: 1.75;
+		@include mq($until: tablet) {
+			font-size: 22px;
+		}
 	}
 	.copyContainer {
 		flex: 1 40%;
@@ -276,7 +303,7 @@
 		position: relative;
 		@include mq($until: tablet) {
 			flex: none;
-			padding: 20px 10px 40px;
+			padding: 20px 0px 40px;
 		}
 	}
 }
@@ -346,6 +373,9 @@
   }
   blockquote {
 		position: relative;
+		@include mq($until: tablet) {
+			margin: 0px 20px;
+		}
   }
 }
 .servicesHome {

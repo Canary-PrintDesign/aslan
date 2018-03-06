@@ -76,20 +76,26 @@
 	}
 	figure {
 		margin-top: 40px;
-    float: left;
-    height: 269px;
+    @include mq($from: tablet) {
+    	height: 269px;
+    	float: left;
+    }
 		img {
 			max-width:200px;
 		}
 	}
 	figure + h3 + p{
-		height: 256px;
+		@include mq($from: tablet) {
+			height: 256px;
+		}
 	}
 	figure + h3,
 	figure + h3 + p{
-    width: 55%;
-    display: inline-block;
-    float: right;
+		@include mq($from: tablet) {
+    	width: 55%;
+    	display: inline-block;
+    	float: right;
+  	}
 	}
 	figure + h3 + p:after {
 			content: '';
