@@ -49,6 +49,10 @@
 			position: absolute;
 			right: 0;
 			top: 52px;
+			@include mq($until: tablet) {
+				position: relative;
+				top: 0;
+			}
 			.email {
 				svg {
 					bottom: -2px;

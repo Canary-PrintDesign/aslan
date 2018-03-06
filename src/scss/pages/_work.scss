@@ -5,15 +5,31 @@
 	}
 	ul {
 		list-style: none;
+		margin-left: 0;
+		@include mq($until: tablet) {
+			margin-top: 0;
+		}
 	}
 	h2 {
 		color: #3e867d;
-    font-size: 38px;
     font-weight: 700;
     letter-spacing: 0em;
     text-transform: uppercase;
     position: relative;
     line-height: 1;
+    font-size: 72px;
+		margin-right: 40px;
+		margin-top: 0;
+		padding-top: 0;
+		@include mq($until: tablet) {
+			font-size: 40px;
+			text-align: left;
+		}
+	}
+	p {
+		@include mq($until: tablet) {
+			text-align: left;
+		}
 	}
 	.workItem{
 		border-bottom: 1px solid #eee;
@@ -21,6 +37,10 @@
 		margin-bottom: 60px;
 		&:last-of-type {
 			border: none;
+		}
+		@include mq($until: tablet) {
+			padding-bottom: 20px;
+			margin-bottom: 25px;
 		}
 	}
 	.col2.copy {
@@ -31,13 +51,6 @@
 		div {
 			flex: 1 70%;
 		}
-	}
-	h2 {
-		font-size: 72px;
-		margin-right: 40px;
-		margin-top: 0;
-		padding-top: 0;
-		flex: auto 35%;
 	}
 	p,
 	p:first-of-type {

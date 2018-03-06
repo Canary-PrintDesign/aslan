@@ -21,6 +21,7 @@
  <button id="opennav" class="mobile burger" onclick="openNav()" aria-label="Navigation Menu" aria-expanded="false">☰</button>
 
   <div class="headerContainer" id="mySidenav">
+    <a href="#" class="closeNav" onclick="closeNav()">×</span></a>
     <nav class="navSocial">
       <ul class="socialIcons">
         <li class="fb">
@@ -82,7 +83,7 @@ function closeFunction() {
 }
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
+    document.getElementById("mySidenav").style.width = "100%";
     document.getElementById("mySidenav").style.visibility = "visible";
     var mainLinks = document.getElementById("main").getElementsByTagName("a");
     for (var i = 0; i < mainLinks.length; i++) {
@@ -97,8 +98,6 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "white";
     document.getElementById("mySidenav").style.visibility = "hidden";
     document.getElementById("main").removeAttribute('aria-hidden');
     var mainLinks = document.getElementById("main").getElementsByTagName("a");

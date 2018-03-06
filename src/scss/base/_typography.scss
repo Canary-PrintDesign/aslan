@@ -17,7 +17,7 @@ h2 {
 	line-height: 1.5;
 	color: $color-brand-3;
 	@include mq($until: tablet) {
-		font-size: 40px;
+		font-size: 36px;
 	}
 }
 
