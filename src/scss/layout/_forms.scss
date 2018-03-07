@@ -1,41 +1,44 @@
 form{
 	padding: 20px 40px 14px 0px;
+	@include mq($until: tablet) {
+		padding: 20px 0 14px;
+	}
 	textarea,
 	input[type="phone"],
     input[type="email"],
     input[type="text"]{
     	width:100%;
-		outline: 0;
-		border: none;
-		background: #fff;
-		font-size: 16px;
-		letter-spacing: .045em;
-		font-weight: 300;
-		padding:10px;
-		margin-bottom:16px;
-		height:auto;
-		border-radius: 0!important;
-		-webkit-appearance: none;
-		border: 1px solid $color-brand-2;
-		color: $black;
-		transition: ease-in-out, all .35s ease-in-out;
-		&:focus{
-			border: 1px solid $color-brand-3;
-			opacity:1;
-			background: #e0efea;
-			transition: .2s all;
-			&::-webkit-input-placeholder{
-				opacity:0;
+			outline: 0;
+			border: none;
+			background: #fff;
+			font-size: 16px;
+			letter-spacing: .045em;
+			font-weight: 300;
+			padding:10px;
+			margin-bottom:16px;
+			height:auto;
+			border-radius: 0!important;
+			-webkit-appearance: none;
+			border: 1px solid $color-brand-2;
+			color: $black;
+			transition: ease-in-out, all .35s ease-in-out;
+			&:focus{
+				border: 1px solid $color-brand-3;
+				opacity:1;
+				background: #e0efea;
+				transition: .2s all;
+				&::-webkit-input-placeholder{
+					opacity:0;
+					transition: .25s all;
+				}
+			}
+			&::-webkit-input-placeholder{color:#83AEAF;}
+			&:-moz-placeholder{color:#83AEAF;}
+			&::-moz-placeholder{color:#83AEAF;}
+			&:-ms-input-placeholder{
+				color:#83AEAF;
 				transition: .25s all;
 			}
-		}
-		&::-webkit-input-placeholder{color:#83AEAF;}
-		&:-moz-placeholder{color:#83AEAF;}
-		&::-moz-placeholder{color:#83AEAF;}
-		&:-ms-input-placeholder{
-			color:#83AEAF;
-			transition: .25s all;
-		}
     }
     label{
     	margin-bottom: 7px;

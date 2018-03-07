@@ -13,7 +13,9 @@
 		left: 0%;
 	}
   @include mq($until: tablet) {
-    position:absolute;
+    &.modalToggle {
+      position: absolute;
+    }
   }
 }
 .modalContainer {
@@ -26,6 +28,7 @@
   padding: 20px 40px 0px;
   @include mq($until: tablet) {
     padding: 20px 20px 0;
+    left: 0;
   }
   h2 {
 		font-size: 38px;
@@ -39,7 +42,8 @@
   	color: $color-brand-3;
     @include mq($until: tablet) {
       padding: 0 30px;
-      font-size: 26px;
+      font-size: 17px;
+      line-height: 1.5;
     }
   	a {
   		color: $color-brand-5;
