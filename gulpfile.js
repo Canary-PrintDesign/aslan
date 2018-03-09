@@ -125,7 +125,7 @@ gulp.task( 'vendorsJs', function() {
  });
 
  gulp.task( 'customJS', function() {
-    del([jsCustomDestination])
+    del(['static/js/custom-*.js'])
     gulp.src( jsCustomSRC )
     .pipe( concat( jsCustomFile + '.js' ) )
     .pipe( lineec() )
