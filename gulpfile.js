@@ -137,7 +137,7 @@ gulp.task( 'vendorsJs', function() {
     .pipe( uglify() )
     .pipe( lineec() )
     .pipe(hash.manifest("hash.json"))
-    .pipe( gulp.dest( jsCustomDestination ) )
+    .pipe( gulp.dest("data/js") )
     .pipe( notify( { message: 'TASK: "customJs" Completed! 💯', onLast: true } ) );
  });
 
