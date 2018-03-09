@@ -6,6 +6,7 @@ build/
 public/
 static/css
 static/images
+static/js/custom*.js
 .awspublish*
 
 node_modules/
