@@ -19,24 +19,26 @@ blurb: Every project starts with a question or two, we get that. So give us a ca
         <span>250-954-5367</span>
       </a>
     </div>
-    <form id="estimate" method="post" action="https://static-files.canaryprint.ca/aslanventures.com/mailer.php">
-      <div class="other field">
-        <label for="name field">Name</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div class="other field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div class="other field">
-        <label for="phone">Phone Number <small>(optional)</small></label>
-        <input type="phone" id="phone" name="phone" />
-      </div>
-      <div class="other field">
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="8" required ></textarea>
-      </div>
-      <input type="submit" class="btn-primary" value="Send Message" />
-    </form>
+        <form id="ajax-contact contact" method="post"
+            action="https://static-files.canaryprint.ca/aslanventures.com/mailer.php">
+          <div class="other field">
+            <label for="name field">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="other field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="other field">
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone" />
+          </div>
+          <div class="other field">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="8" required ></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send in for Message</button>
+        </form>
+        <div id="form-messages"></div>
   </div>
 </main>
