@@ -142,11 +142,11 @@ gulp.task( 'vendorsJs', function() {
  });
 
 // Watch asset folder for changes
-gulp.task("default", ["scss", "images", "vendorsJs", "customJS"], function () {
+gulp.task("default", ["scss", "images", "customJS"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
   gulp.watch("src/images/**/*", ["images"])
   gulp.watch( "layouts/**/*.html" );
-  gulp.watch( jsVendorSRC, [ 'vendorsJs' ] );
+  // gulp.watch( jsVendorSRC, [ 'vendorsJs' ] );
   gulp.watch( jsCustomSRC, [ 'customJS' ] );
 });
 
