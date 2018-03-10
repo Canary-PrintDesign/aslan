@@ -135,9 +135,6 @@
 .subNav {
   margin-top: -50px;
   margin-bottom: 30px;
-  @include mq($until: tablet) {
-
-  }
   ul {
     border-bottom: 1px solid #c3c3c3;
     display: flex;
