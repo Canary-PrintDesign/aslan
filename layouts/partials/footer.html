@@ -20,7 +20,7 @@
           <li><a href="{{ "/maintenance" | relURL }}" title="{{ i18n "Maintenance" }}">Maintenance</a></li>
 
           <li>
-            <a href="#">Our Work</a>
+            <a href="{{ "/our-work" | relURL }}" title="{{ i18n "Our Work" }}">Our Work</a>
           </li>
           <li>
             <a href="{{ "/contact" | relURL }}" title="{{ i18n "Contact" }}">Contact</a>
@@ -34,4 +34,5 @@
 </footer>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+  <script src="/js/jquery-custom.js"></script>
+  <script defer src="/js/{{ index .Site.Data.js.hash "custom.js"}}" ></script>

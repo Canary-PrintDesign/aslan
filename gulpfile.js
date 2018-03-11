@@ -125,7 +125,7 @@ gulp.task( 'vendorsJs', function() {
  });
 
  gulp.task( 'customJS', function() {
-    del([jsCustomDestination])
+    del(['static/js/custom-*.js'])
     gulp.src( jsCustomSRC )
     .pipe( concat( jsCustomFile + '.js' ) )
     .pipe( lineec() )
@@ -137,16 +137,16 @@ gulp.task( 'vendorsJs', function() {
     .pipe( uglify() )
     .pipe( lineec() )
     .pipe(hash.manifest("hash.json"))
-    .pipe( gulp.dest( jsCustomDestination ) )
+    .pipe( gulp.dest("data/js") )
     .pipe( notify( { message: 'TASK: "customJs" Completed! 💯', onLast: true } ) );
  });
 
 // Watch asset folder for changes
-gulp.task("default", ["scss", "images", "vendorsJs", "customJS"], function () {
+gulp.task("default", ["scss", "images", "customJS"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
   gulp.watch("src/images/**/*", ["images"])
   gulp.watch( "layouts/**/*.html" );
-  gulp.watch( jsVendorSRC, [ 'vendorsJs' ] );
+  // gulp.watch( jsVendorSRC, [ 'vendorsJs' ] );
   gulp.watch( jsCustomSRC, [ 'customJS' ] );
 });
 

@@ -1,41 +1,41 @@
 header {
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	width: 100%;
-	padding: 12px 20px;
-	-webkit-font-smoothing: antialiased;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @include mq($until: tablet) {
-  	position: fixed;
-  	background: #fff;
-  	padding: 10px 15px;
+    position: fixed;
+    background: #fff;
+    padding: 10px 15px;
   }
   .headerContainer {
-		@include mq($until: tablet) {
-  		position: fixed;
-  		background: $color-brand-4;
-  		left: 0;
+    @include mq($until: tablet) {
+      position: fixed;
+      background: $color-brand-4;
+      left: 0;
       top: 0;
       padding-top: 35px;
-  		height: 100%;
-  		width: 0px;
-  		visibility: hidden;
-  		transition: all .25s;
-  	}
+      height: 100%;
+      width: 0px;
+      visibility: hidden;
+      transition: all .25s;
+    }
   }
 }
 
 .social {
-	a {
-		display: inline-block;
+  a {
+    display: inline-block;
 
-	}
+  }
 }
 
 #main {
-	margin-left: 0;
-	transition: .25s all;
+  margin-left: 0;
+  transition: .25s all;
 }
 
 .closeNav{

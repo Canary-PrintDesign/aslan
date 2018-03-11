@@ -1,118 +1,118 @@
 .workContent {
-	max-width: 1400px;
-	.wrapper {
-		max-width: 100%;
-	}
-	ul {
-		list-style: none;
-		margin-left: 0;
-		@include mq($until: tablet) {
-			margin-top: 0;
-		}
-	}
-	h2 {
-		color: #3e867d;
+  max-width: 1400px;
+  .wrapper {
+    max-width: 100%;
+  }
+  ul {
+    list-style: none;
+    margin-left: 0;
+    @include mq($until: tablet) {
+      margin-top: 0;
+    }
+  }
+  h2 {
+    color: #3e867d;
     font-weight: 700;
     letter-spacing: 0em;
     text-transform: uppercase;
     position: relative;
     line-height: 1;
     font-size: 72px;
-		margin-right: 40px;
-		margin-top: 0;
-		padding-top: 0;
-		@include mq($until: tablet) {
-			font-size: 40px;
-			text-align: left;
-		}
-	}
-	p {
-		@include mq($until: tablet) {
-			text-align: left;
-		}
-	}
-	.workItem{
-		border-bottom: 1px solid #eee;
-		padding-bottom: 40px;
-		margin-bottom: 60px;
-		&:last-of-type {
-			border: none;
-		}
-		@include mq($until: tablet) {
-			padding-bottom: 20px;
-			margin-bottom: 25px;
-		}
-	}
-	.col2.copy {
-		max-width: 1200px;
-		h2 {
-			flex: 1 30%;
-		}
-		div {
-			flex: 1 70%;
-		}
-	}
-	p,
-	p:first-of-type {
-		font-size: 20px;
-	}
-	p strong {
-		font-size:18px;
-		font-family: $fontFamily;
-		font-weight: 600;
-		color: $color-brand-2;
-	}
-	.col2 {
-		align-items: center;
+    margin-right: 40px;
+    margin-top: 0;
+    padding-top: 0;
+    @include mq($until: tablet) {
+      font-size: 40px;
+      text-align: left;
+    }
+  }
+  p {
+    @include mq($until: tablet) {
+      text-align: left;
+    }
+  }
+  .workItem{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    &:last-of-type {
+      border: none;
+    }
+    @include mq($until: tablet) {
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+    }
+  }
+  .col2.copy {
+    max-width: 1200px;
+    h2 {
+      flex: 1 30%;
+    }
+    div {
+      flex: 1 70%;
+    }
+  }
+  p,
+  p:first-of-type {
+    font-size: 20px;
+  }
+  p strong {
+    font-size:18px;
+    font-family: $fontFamily;
+    font-weight: 600;
+    color: $color-brand-2;
+  }
+  .col2 {
+    align-items: center;
 
-		.copy {
+    .copy {
 
-			padding: 20px 40px 10px;
-			position: relative;
-			@include mq($until: tablet) {
-				flex: none;
-				padding: 0px 0 10px;
-			}
-		}
-		.image {
-			@include mq($from: tablet) {
-				flex: 1 35%;
-				background-attachment: fixed;
-				background-repeat: no-repeat;
-			}
-			@include mq($until: tablet) {
-				background-size: cover;
-				min-height: 300px;
-			}
-			img {
-				max-width: 100%;
-				display: block;
-			}
-		}
-	}
-	.images {
-		margin-top: 30px;
-		h3 {
-			font-size: 36px;
-			font-weight: 700;
-			padding: 8px 0;
-			position: absolute;
-			margin-top: 0;
-			text-align: center;
-			text-transform: uppercase;
-			top: 0;
-			left: 0;
-			width: 100%;
-			background: rgba(26,54,58,0.8);
-			color: #fff;
-		}
-		.imgContainer {
-			position: relative;
-			margin: 0 5px;
-			flex: 1 50%;
-			img {
-				max-width: 100%;
-			}
-		}
-	}
+      padding: 20px 40px 10px;
+      position: relative;
+      @include mq($until: tablet) {
+        flex: none;
+        padding: 0px 0 10px;
+      }
+    }
+    .image {
+      @include mq($from: tablet) {
+        flex: 1 35%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+      }
+      @include mq($until: tablet) {
+        background-size: cover;
+        min-height: 300px;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+    }
+  }
+  .images {
+    margin-top: 30px;
+    h3 {
+      font-size: 36px;
+      font-weight: 700;
+      padding: 8px 0;
+      position: absolute;
+      margin-top: 0;
+      text-align: center;
+      text-transform: uppercase;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(26,54,58,0.8);
+      color: #fff;
+    }
+    .imgContainer {
+      position: relative;
+      margin: 0 5px;
+      flex: 1 50%;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
 }

@@ -1,71 +1,71 @@
 .contact {
-	.openingLine {
-		padding-bottom: 15px;
-	}
-	h2 {
-		margin-top: 0;
-	}
-	p.getInTouch {
-  	font-size: 32px;
-  	padding-bottom: 5px;
-  	a {
-  		color: $color-brand-5;
-  		text-decoration: none;
-  	}
+  .openingLine {
+    padding-bottom: 15px;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  p.getInTouch {
+    font-size: 32px;
+    padding-bottom: 5px;
+    a {
+      color: $color-brand-5;
+      text-decoration: none;
+    }
   }
   form {
-		max-width: 450px;
-	}
-	.formContainer {
-		position: relative;
-		a {
-			border-radius: 4px;
-			font-size: 70px;
-			text-decoration: none;
-			color: #fff;
-			display: block;
-			padding: 20px 20px 50px;
-			background: $color-brand-2;
-			margin-bottom: 20px;
-			font-weight: 600;
-			letter-spacing: 0.015em;
-			height: 198px;
-			position: relative;
-			span {
-				font-size: 18px;
-				display: block;
-				width: 100%;
-				margin-top: 12px;
-			}
-			&:hover {
-				background: $color-brand-3;
-				svg {
-					font-size: 160px;
-					opacity: .6;
-				}
-			}
-		}
-		.contactDetails {
-			position: absolute;
-			right: 0;
-			top: 52px;
-			@include mq($until: tablet) {
-				position: relative;
-				top: 0;
-			}
-			.email {
-				svg {
-					bottom: -2px;
-				}
-			}
-			svg {
-				bottom: 12px;
-				font-size: 140px;
-				opacity: .2;
-				right: 14px;
-				position: absolute;
-				transition: .25s all;
-			}
-		}
-	}
+    max-width: 450px;
+  }
+  .formContainer {
+    position: relative;
+    a {
+      border-radius: 4px;
+      font-size: 70px;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      padding: 20px 20px 50px;
+      background: $color-brand-2;
+      margin-bottom: 20px;
+      font-weight: 600;
+      letter-spacing: 0.015em;
+      height: 198px;
+      position: relative;
+      span {
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        margin-top: 12px;
+      }
+      &:hover {
+        background: $color-brand-3;
+        svg {
+          font-size: 160px;
+          opacity: .6;
+        }
+      }
+    }
+    .contactDetails {
+      position: absolute;
+      right: 0;
+      top: 52px;
+      @include mq($until: tablet) {
+        position: relative;
+        top: 0;
+      }
+      .email {
+        svg {
+          bottom: -2px;
+        }
+      }
+      svg {
+        bottom: 12px;
+        font-size: 140px;
+        opacity: .2;
+        right: 14px;
+        position: absolute;
+        transition: .25s all;
+      }
+    }
+  }
 }

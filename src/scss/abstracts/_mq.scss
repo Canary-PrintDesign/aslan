@@ -61,9 +61,9 @@ $mq-media-type: all !default;
   // Until: that breakpoint (exclusive)
   @if $until {
     @if type-of($until) == number {
-        $max-width: mq-px2em($until);
+      $max-width: mq-px2em($until);
     } @else {
-        $max-width: mq-px2em(mq-get-breakpoint-width($until, $breakpoints)) - .01em;
+      $max-width: mq-px2em(mq-get-breakpoint-width($until, $breakpoints)) - .01em;
     }
   }
 
@@ -78,7 +78,7 @@ $mq-media-type: all !default;
       $and == false
       and $min-width <= $target-width
       and (
-          $until == false or $max-width >= $target-width
+        $until == false or $max-width >= $target-width
       )
     ) {
       @content;
