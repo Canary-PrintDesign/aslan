@@ -3,7 +3,7 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
+  <body class="{{ .Params.slug }}" >
     {{ partial "modal.html" . }}
 
     {{ partial "navbar.html" . }}

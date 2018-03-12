@@ -21,7 +21,7 @@
  <button id="opennav" class="mobile burger" onclick="openNav()" aria-label="Navigation Menu" aria-expanded="false">☰</button>
 
   <div class="headerContainer" id="mySidenav">
-    <a href="#" class="closeNav" onclick="closeNav()">×</span></a>
+    <a href="#" id="closeNav" onclick="closeNav()">×</span></a>
     <nav class="navSocial">
       <ul class="socialIcons">
         <li class="fb">
@@ -71,20 +71,21 @@
 </header>
 
 <script>
-function modalFunction() {
-   var element = document.getElementById("modal");
-   element.classList.add("modalToggle");
-   return false;
-}
-function closeFunction() {
-   var element = document.getElementById("modal");
-   element.classList.remove("modalToggle");
-   return false;
-}
+  function modalFunction() {
+    var element = document.getElementById("modal");
+    element.classList.add("modalToggle");
+    return false;
+  }
 
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("mySidenav").style.visibility = "visible";
+  function closeFunction() {
+    var element = document.getElementById("modal");
+    element.classList.remove("modalToggle");
+    return false;
+  }
+
+  function openNav() {
+    document.getElementById("mySidenav").style.right = "0%";
+    document.getElementById("closeNav").style.visibility = "visible";
     var mainLinks = document.getElementById("main").getElementsByTagName("a");
     for (var i = 0; i < mainLinks.length; i++) {
       mainLinks[i].setAttribute('tabindex', '-1');
@@ -94,11 +95,11 @@ function openNav() {
       mainButtons[i].setAttribute('disabled', 'true');
     }
     setTimeout(function(){ document.getElementById("closenav").focus(); }, 500);
-}
+  }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("mySidenav").style.visibility = "hidden";
+  function closeNav() {
+    document.getElementById("mySidenav").style.right = "100%";
+    document.getElementById("closeNav").style.visibility = "hidden";
     document.getElementById("main").removeAttribute('aria-hidden');
     var mainLinks = document.getElementById("main").getElementsByTagName("a");
     for (var i = 0; i < mainLinks.length; i++) {
@@ -109,6 +110,5 @@ function closeNav() {
       mainButtons[i].removeAttribute('disabled');
     }
     document.getElementById("opennav").focus();
-}
-
+  }
 </script>
