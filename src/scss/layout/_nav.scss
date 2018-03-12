@@ -14,7 +14,7 @@
       margin-top: 50px;
     }
   }
-  li {
+   li {
     flex: 1;
     padding-bottom: 15px;
   }
@@ -24,7 +24,13 @@
     font-weight: 600;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-
+    @include mq($from: tablet) {
+      padding-bottom: 6px;
+      &:hover {
+        border-bottom: 2px solid #47a079;
+        padding-bottom: 4px;
+      }
+    }
   }
   .quote {
     @include mq($from: tablet) {
@@ -37,8 +43,14 @@
     }
     flex: none;
     a {
+      border: none;
       letter-spacing: 0;
       box-shadow: 0px 1px 10px 0px rgba(8, 8, 8, 0.27);
+      padding: 11px 22px 13px 22px;
+      &:hover {
+        padding: 11px 22px 13px 22px;
+        border: none;
+      }
       @include mq($until: wide) {
         padding: 11px 15px 13px 15px;
         font-size: 16px;
@@ -54,6 +66,7 @@
     }
   }
 }
+
 .navSocial {
   @include mq($from: tablet) {
     position: fixed;
@@ -63,7 +76,9 @@
     background: none;
   }
   background: #202627;
-  padding: 0px 12px 0px 20px;
+  padding: 0px 0px 0px 20px;
+  box-shadow: 0px 1px 10px 0px rgba(8,8,8,0.27);
+  border-radius: 0 4px 4px 0;
   @include mq($until: wide) {
     top: 0;
   }
