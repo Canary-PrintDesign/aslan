@@ -19,7 +19,10 @@
 }
 
 .btnPrimary {
-  @extend .btn;
-  background: $color-cta;
-  color: #fff;
+	@extend .btn;
+	background: $color-cta;
+	color: #fff;
+  &:hover {
+    background: $color-brand-3;
+  }
 }
