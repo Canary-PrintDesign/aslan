@@ -15,7 +15,7 @@ Each day at Aslan is guided by the same principles of giving exceptional custome
 
 ## This is us
 We are Aslan, and we want to tackle any challenge as an opportunity for improving ourselves and reinventing our craft. We take our inspiration from the magnificent scenery that surrounds us, and we want to cultivate a genuinely West Coast flavour in each of our projects. We are innovative, creative, and hard working.
-Does this sound like a good fit for you? Get your [free consultation and estimate] (http://example.com/ "Free Consultation and Estimate").
+Does this sound like a good fit for you? Get your [free consultation] (/contact "Free Consultation and Estimate")!
 
 
 {{< figure src="/images/staff-chris.png" title="Photo of Chris" >}}

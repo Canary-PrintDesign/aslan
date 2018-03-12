@@ -1,7 +1,7 @@
 .wrapper {
-	max-width: $wrapper;
-	margin: 0 auto;
-	padding: 0 20px;
+  max-width: $wrapper;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .subTitle {
   color: #616161;
@@ -14,92 +14,92 @@
 }
 
 .contentContainer {
-	padding: 50px 0 70px;
-	max-width: 780px;
-	margin: 0 auto;
-	a {
-		color: $color-brand-5;
-	}
-	h2 {
-		font-size: 34px;
-		margin-top: 35px;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		line-height: 1.1;
-	}
-	h3 {
-		margin-top: 25px;
-	}
-	p:first-of-type {
-		font-size: 22px;
-	}
-	p {
-		margin-bottom: 20px;
-	}
-	figure{
-		padding-top: 20px;
-		margin-bottom: 20px;
-		img {
-			max-width: 100%;
-		}
-	}
-	ul {
-		font-family: $fontBody;
-		font-weight: 300;
-		line-height: 1.2;
-		list-style: disc;
-		margin-top: 20px;
-		margin-left: 32px;
-		li {
-			margin-bottom: 10px;
-		}
-	}
+  padding: 50px 0 70px;
+  max-width: 780px;
+  margin: 0 auto;
+  a {
+    color: $color-brand-5;
+  }
+  h2 {
+    font-size: 34px;
+    margin-top: 35px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+  h3 {
+    margin-top: 25px;
+  }
+  p:first-of-type {
+    font-size: 22px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  figure{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+  ul {
+    font-family: $fontBody;
+    font-weight: 300;
+    line-height: 1.2;
+    list-style: disc;
+    margin-top: 20px;
+    margin-left: 32px;
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .contentTout {
-	h1 {
-		font-size: 60px;
-	}
-	p {
-		font-size: 22px;
-		color: #fff;
-		font-weight: 500;
-		font-family: $fontFamily;
-		max-width: 700px;
-		margin: 0 auto;
-	}
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    font-family: $fontFamily;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
 
 .about {
-	.wrapper {
-		@include clearfix();
-	}
-	figure {
-		margin-top: 40px;
+  .wrapper {
+    @include clearfix();
+  }
+  figure {
+    margin-top: 40px;
     @include mq($from: tablet) {
-    	height: 269px;
-    	float: left;
+      height: 269px;
+      float: left;
     }
-		img {
-			max-width:200px;
-		}
-	}
-	figure + h3 + p{
-		@include mq($from: tablet) {
-			height: 256px;
-		}
-	}
-	figure + h3,
-	figure + h3 + p{
-		@include mq($from: tablet) {
-    	width: 55%;
-    	display: inline-block;
-    	float: right;
-  	}
-	}
-	figure + h3 + p:after {
-			content: '';
-			height: 1px;
-			width: 100%;
-	}
+    img {
+      max-width:200px;
+    }
+  }
+  figure + h3 + p{
+    @include mq($from: tablet) {
+      height: 256px;
+    }
+  }
+  figure + h3,
+  figure + h3 + p{
+    @include mq($from: tablet) {
+      width: 55%;
+      display: inline-block;
+      float: right;
+    }
+  }
+  figure + h3 + p:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+  }
 }

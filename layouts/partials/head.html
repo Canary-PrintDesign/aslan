@@ -14,30 +14,11 @@
 <!-- End Favicon Information -->
 
 <title>{{- .Title }} - {{ .Site.Title -}}</title>
-<meta name="author" content="{{ .Site.Author.name }}">
+<meta name="author" content="Canary Print + Design">
 <meta name="description" content="{{ .Site.Params.description }}">
 
-{{ .Hugo.Generator }}
-
-<script>
-  WebFontConfig = {
-   google: {
-          families: ['Montserrat:300,500,600,700', 'Ramaraja', 'Hind:300,600']
-        }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })(); </script>
+<link href="/fonts/fonts.css" rel="stylesheet">
 
 <!-- CSS -->
 <meta name="description" content="{{ .Description }}">
 <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
-
-<!-- Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ print "assets/img/apple-touch-icon.png" | relURL }}">
-<link rel="shortcut icon" href="{{ print "assets/img/favicon.ico" | relURL }}">
