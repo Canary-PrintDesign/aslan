@@ -8,20 +8,24 @@ footer {
     margin-top: 0;
     color: #fff;
   }
+
   blockquote {
     float: right;
     font-size: 20px;
   }
 }
+
 .footerContainer {
   padding: 38px 0px;
   @include mq($until: tablet) {
     background-position: center bottom!important;
     padding-bottom: 260px;
+
     ul {
       margin-bottom: 20px;
     }
   }
+
   .footer-text {
     a {
       color: #fff;
@@ -30,6 +34,7 @@ footer {
       display: block;
       font-weight: 300;
     }
+
     li {
       display: inline-block;
       @include mq($from: tablet) {

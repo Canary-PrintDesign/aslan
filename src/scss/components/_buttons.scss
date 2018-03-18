@@ -15,13 +15,13 @@
   text-transform: uppercase;
   position: relative;
   transition: all .25s;
-
 }
 
 .btnPrimary {
-	@extend .btn;
-	background: $color-cta;
-	color: #fff;
+  @extend .btn;
+  background: $color-cta;
+  color: #fff;
+
   &:hover {
     background: $color-brand-3;
   }

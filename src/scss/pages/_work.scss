@@ -1,8 +1,10 @@
 .workContent {
   max-width: 1400px;
+
   .wrapper {
     max-width: 100%;
   }
+
   ul {
     list-style: none;
     margin-left: 0;
@@ -10,6 +12,7 @@
       margin-top: 0;
     }
   }
+
   h2 {
     color: #3e867d;
     font-weight: 700;
@@ -26,15 +29,18 @@
       text-align: left;
     }
   }
+
   p {
     @include mq($until: tablet) {
       text-align: left;
     }
   }
-  .workItem{
+
+  .workItem {
     border-bottom: 1px solid #eee;
     padding-bottom: 40px;
     margin-bottom: 60px;
+
     &:last-of-type {
       border: none;
     }
@@ -43,30 +49,35 @@
       margin-bottom: 25px;
     }
   }
+
   .col2.copy {
     max-width: 1200px;
+
     h2 {
       flex: 1 30%;
     }
+
     div {
       flex: 1 70%;
     }
   }
+
   p,
   p:first-of-type {
     font-size: 20px;
   }
+
   p strong {
     font-size:18px;
     font-family: $fontFamily;
     font-weight: 600;
     color: $color-brand-2;
   }
+
   .col2 {
     align-items: center;
 
     .copy {
-
       padding: 20px 40px 10px;
       position: relative;
       @include mq($until: tablet) {
@@ -74,6 +85,7 @@
         padding: 0px 0 10px;
       }
     }
+
     .image {
       @include mq($from: tablet) {
         flex: 1 35%;
@@ -84,12 +96,14 @@
         background-size: cover;
         min-height: 300px;
       }
+
       img {
         max-width: 100%;
         display: block;
       }
     }
   }
+
   .images {
     margin-top: 30px;
 
@@ -101,6 +115,7 @@
       position: absolute;
       padding: 8px 0;
       margin-top: 0;
+
       h3 {
         font-size: 36px;
         font-weight: 700;
@@ -115,10 +130,12 @@
     .imgContainer {
       position: relative;
       flex: 1 50%;
+
       img {
         width: 100%;
       }
     }
+
     .beforeimg {
       margin-right: 25px;
     }

@@ -6,11 +6,13 @@ header {
   padding: 12px 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   @include mq($until: tablet) {
     position: fixed;
     background: #fff;
     padding: 10px 15px;
   }
+
   .headerContainer {
     @include mq($until: tablet) {
       position: fixed;
@@ -28,7 +30,6 @@ header {
 .social {
   a {
     display: inline-block;
-
   }
 }
 
@@ -37,7 +38,7 @@ header {
   transition: .25s all;
 }
 
-#closenav{
+#closenav {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -47,4 +48,3 @@ header {
   line-height: 52px;
   visibility: hidden;
 }
-

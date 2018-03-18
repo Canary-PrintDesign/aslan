@@ -2,28 +2,36 @@
   .quote {
     display: none;
   }
+
   .modal {
     display: none;
   }
+
   .openingLine {
     padding-bottom: 15px;
   }
+
   h2 {
     margin-top: 0;
   }
+
   p.getInTouch {
     font-size: 32px;
     padding-bottom: 5px;
+
     a {
       color: $color-brand-5;
       text-decoration: none;
     }
   }
+
   form {
     max-width: 450px;
   }
+
   .formContainer {
     position: relative;
+
     a {
       border-radius: 4px;
       font-size: 70px;
@@ -37,20 +45,24 @@
       letter-spacing: 0.015em;
       height: 198px;
       position: relative;
+
       span {
         font-size: 18px;
         display: block;
         width: 100%;
         margin-top: 12px;
       }
+
       &:hover {
         background: $color-brand-3;
+
         svg {
           font-size: 160px;
           opacity: .6;
         }
       }
     }
+
     .contactDetails {
       position: absolute;
       right: 0;
@@ -59,11 +71,13 @@
         position: relative;
         top: 0;
       }
+
       .email {
         svg {
           bottom: -2px;
         }
       }
+
       svg {
         bottom: 12px;
         font-size: 140px;

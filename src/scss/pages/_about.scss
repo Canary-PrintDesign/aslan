@@ -2,21 +2,25 @@
   .wrapper {
     @include clearfix();
   }
+
   figure {
     margin-top: 40px;
     @include mq($from: tablet) {
       height: 287px;
       float: left;
     }
+
     img {
       max-width:200px;
     }
   }
+
   figure + h3 + p{
     @include mq($from: tablet) {
       height: 256px;
     }
   }
+
   figure + h3,
   figure + h3 + p{
     @include mq($from: tablet) {
@@ -25,6 +29,7 @@
       float: right;
     }
   }
+
   figure + h3 + p:after {
     content: '';
     height: 1px;
