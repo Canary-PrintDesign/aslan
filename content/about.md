@@ -5,8 +5,7 @@ description: something
 BgImg: tout_bg8.jpg
 blurb: Playing in the yard since 2007
 ---
-<!--
-{{< figure src="/images/tout_bg.jpg" title="Photo by Ales Krivec on Unsplash" >}} -->
+
 
 Inspired by the breath-taking natural beauty of Vancouver Island, Aslan was founded over ten years ago by Chris and his love for creativity and outdoor space. Since then, a passionate group of people have joined him in his adventure of making every yard an enchanting space for every client.
 
@@ -15,7 +14,7 @@ Each day at Aslan is guided by the same principles of giving exceptional custome
 
 ## This is us
 We are Aslan, and we want to tackle any challenge as an opportunity for improving ourselves and reinventing our craft. We take our inspiration from the magnificent scenery that surrounds us, and we want to cultivate a genuinely West Coast flavour in each of our projects. We are innovative, creative, and hard working.
-Does this sound like a good fit for you? Get your [free consultation] (/contact "Free Consultation and Estimate")!
+Does this sound like a good fit for you? Get your [free consultation](/contact "Free Consultation and Estimate")!
 
 
 {{< figure src="/images/staff-chris.png" title="Photo of Chris" >}}
@@ -59,3 +58,18 @@ Dan came to us with a mixed bag of expertise in the industrial world, backed by 
 ### Tysen
 
 Tysen came to us from Bear Mountain where he worked on the landscape maintenance crew. He assumed the role of crew chief and continues to exercise his ability to learn and grow in the industry. His contagious smile and warm soul are sure to win you over.
+
+{{< figure src="/images/staff-dylan.png" title="Photo of Dylan" >}}
+
+### Dylan
+
+Dylan likes to cut grass, its as simple as that. He finds the sound of a mower and the appearance of neatly cut lawn to be quite appealing.
+Dylan has been with us for a few years now, and he continues to learn the trade and develop relationships with all of our clients.
+
+{{< figure src="/images/staff-nick.png" title="Photo of Nick" >}}
+
+### Nick
+
+Nick loves life on the west coast.
+His passion comes from tall trees and cold streams, the smell of the ocean and the breeze off the mountains. He loves where we live and it inspires his work.
+He has worked for Aslan for 4 years, and continues to grow his knowledge in the landscape industry.
