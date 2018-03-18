@@ -64,6 +64,9 @@
       font-weight: 600;
       letter-spacing: 0.02em;
     }
+    @include mq($until: tablet) {
+      border-radius: 0;
+    }
   }
 }
 
