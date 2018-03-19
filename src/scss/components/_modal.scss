@@ -27,8 +27,7 @@
   max-width: 650px;
   position: absolute;
   right: 0;
-  padding: 20px 40px 0px;
-  height: 100%;
+  padding: 20px 40px 30px;
 
   h2 {
     font-size: 38px;
@@ -59,8 +58,9 @@
   }
 
   @include mq($until: tablet) {
-    padding: 20px 20px 0;
+    padding: 20px 20px 20px;
     left: 0;
+    border-radius: 0;
   }
 }
 
