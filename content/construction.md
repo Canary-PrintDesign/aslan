@@ -1,7 +1,7 @@
 ---
 title: Construction
 slug: construction
-description: something
+description: Aslan Ventures is heavily involved in enhancing new yards and constructing all types of custom features to show off
 BgImg: tout_bg19.jpg
 blurb: If you can dream it, we can built it
 ---

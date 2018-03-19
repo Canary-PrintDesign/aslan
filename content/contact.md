@@ -1,7 +1,7 @@
 ---
 title: Contact
 slug: contact
-description: something
+description: Get in touch with us today and find out how we can help you achieve your dream yard
 BgImg: tout_bg17.jpg
 blurb: Every project starts with a question or two, we get that. So give us a call & we can have a quick chat!
 ---

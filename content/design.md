@@ -1,7 +1,7 @@
 ---
 title: Landscape Design
 slug: design
-description: something
+description: A well-designed landscape is at the heart of premium curb-appeal homes
 BgImg: tout_bg11.jpg
 blurb: The beginning of something great
 ---

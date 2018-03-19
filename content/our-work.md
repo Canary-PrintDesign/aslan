@@ -1,7 +1,7 @@
 ---
 title: Our Work
 slug: work
-description:
+description: Check out some of our projects and how we've helped people see their dreams become reality
 BgImg: tout_bg20.jpg
 blurb: The beginning of something great
 type: work
