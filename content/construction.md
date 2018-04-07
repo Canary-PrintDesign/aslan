@@ -1,7 +1,7 @@
 ---
 title: Construction
 slug: construction
-description: Aslan Ventures is heavily involved in enhancing new yards and constructing all types of custom features to show off
+description: Aslan Ventures takes pride in enhancing yards by combining creative design with customized features
 BgImg: tout_bg19.jpg
 blurb: If you can dream it, we can built it
 ---

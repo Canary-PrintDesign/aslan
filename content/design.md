@@ -1,7 +1,7 @@
 ---
 title: Landscape Design
 slug: design
-description: A well-designed landscape is at the heart of premium curb-appeal homes
+description: Aslan Ventures is dedicated to creating a well-designed landscape to match any vision
 BgImg: tout_bg11.jpg
 blurb: The beginning of something great
 ---

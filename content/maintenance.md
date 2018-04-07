@@ -1,7 +1,7 @@
 ---
 title: Maintenance
 slug: maintenance
-description: Let Aslan Ventures take care of the hard work so you can relax in the sunshine with a cold drink
+description: Aslan Ventures will take care of all the hard work so you can relax and enjoy your yard
 BgImg: tout_bg14.jpg
 blurb: Enjoy your landscape
 ---

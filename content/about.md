@@ -1,7 +1,7 @@
 ---
 title: About Us
 slug: about
-description: Learn more about the Aslan Ventures team and our history enriching lives by improving yards
+description: Learn more about the Aslan Ventures team and our history of revitalizing yards and enriching lives
 BgImg: tout_bg8.jpg
 blurb: Playing in the yard since 2007
 ---
