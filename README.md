@@ -17,7 +17,6 @@ hugo server
 ```
 1. DO THIS IN SEPARATE CONSOLE - Builds Gulp's SRC folder in to Hugo's Static folder
 
-
 ##### Build Project
 ```
 gulp¹
@@ -26,7 +25,15 @@ hugo²
 1. DO THIS IN SEPARATE CONSOLE
 2. Builds to Public folder
 
+##### Deploy Project
+After Building project
+```
+gulp publish
+```
+Uses [AWS Publish][awspublish]
+
 
 [Node1]: https://nodejs.org/en/
 [Gulp1]: https://gulpjs.com/
 [Hugo1]: https://gohugo.io/
+[awspublish]: https://www.npmjs.com/package/gulp-awspublish
