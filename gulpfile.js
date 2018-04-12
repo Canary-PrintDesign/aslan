@@ -155,7 +155,7 @@ gulp.task('publish', function() {
   var publisher = awspublish.create({
     region: 'ca-central-1',
     params: {
-      Bucket: 'aslan.canaryprint.ca'
+      Bucket: 'www.aslanventures.ca'
     }
   });
   var headers = {
