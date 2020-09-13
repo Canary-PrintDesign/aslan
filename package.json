@@ -46,12 +46,15 @@
       "no-extra-semicolons": true,
       "no-invalid-double-slash-comments": true,
       "string-no-newline": true,
-      "rule-empty-line-before": [ "always" , {
-        "ignore": [
-          "after-comment",
-          "first-nested"
-        ]
-      }],
+      "rule-empty-line-before": [
+        "always",
+        {
+          "ignore": [
+            "after-comment",
+            "first-nested"
+          ]
+        }
+      ],
       "declaration-block-trailing-semicolon": "always"
     }
   }
