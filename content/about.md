@@ -7,10 +7,10 @@ blurb: Playing in the yard since 2007
 ---
 
 
-Inspired by the breath-taking natural beauty of Vancouver Island, Aslan was founded over ten years ago by Chris and his love for creativity and outdoor space. Since then, a passionate group of people have joined him in his adventure of making every yard an enchanting space for every client.
+Inspired by the breath-taking natural beauty of Vancouver Island, Aslan was founded in 2007 by Chris because of his love for creativity and outdoor space. Since then, a passionate group of people have joined him in his adventure of making every yard an enchanting space for his clients.
 
 ## We live by our values
-Each day at Aslan is guided by the same principles of giving exceptional customer service, keeping our promises, and continually innovating. We are solid on our word and we believe that every project deserves a creative solution.
+Each day at Aslan, we are guided by the same principles of giving exceptional customer service, keeping our promises, and continual innovation. We are solid on our word and we believe that every project deserves a creative solution.
 
 ## This is us
 We are Aslan, and we want to tackle any challenge as an opportunity for improving ourselves and reinventing our craft. We take our inspiration from the magnificent scenery that surrounds us, and we want to cultivate a genuinely West Coast flavour in each of our projects. We are innovative, creative, and hard working.
@@ -34,42 +34,3 @@ Acting both as a CEO support and as the office manager, Hannah has been working 
 ### Laura
 
 Laura brings a veteran presence to the team and years of experience in the landscape and horticulture world. Her experience in golf course and city planning/maintenance gives her the ability to manage our maintenance division with the utmost of care and attention. Laura is certified in many areas and has a diploma of horticulture from the university of Guelph.
-
-{{< figure src="/images/staff-angie.png" title="Photo of Angie" >}}
-
-### Angie
-
-Passionate and reliable, Angie has a true gift for creating exceptional landscapes. With her extraordinary leadership and organizational skills, she was the natural choice for leading one of our maintenance crews and ensuring the best service to our clients.
-
-{{< figure src="/images/staff-andrew.png" title="Photo of Andrew" >}}
-
-### Andrew
-
-Hardworking and dedicated, Andrew loves the satisfaction of a job well done. Taking his work ethic from his upbringing on a farm, he has the greatest mix of expertise and muscle to tackle any landscaping job. He has been with us since 2001, and is truly part of the Aslan family.
-
-{{< figure src="/images/staff-dan.png" title="Photo of Dan" >}}
-
-### Dan
-
-Dan came to us with a mixed bag of expertise in the industrial world, backed by a mechanical mind. His intense attention to detail and commitment to the company and client bring great value to all of our projects. Besides being a welder, inspiring mechanic and all around gear-head Dan is also a certified irrigation technician.
-
-{{< figure src="/images/staff-tysen.png" title="Photo of Tysen" >}}
-
-### Tysen
-
-Tysen came to us from Bear Mountain where he worked on the landscape maintenance crew. He assumed the role of crew chief and continues to exercise his ability to learn and grow in the industry. His contagious smile and warm soul are sure to win you over.
-
-{{< figure src="/images/staff-dylan.png" title="Photo of Dylan" >}}
-
-### Dylan
-
-Dylan likes to cut grass, its as simple as that. He finds the sound of a mower and the appearance of neatly cut lawn to be quite appealing.
-Dylan has been with us for a few years now, and he continues to learn the trade and develop relationships with all of our clients.
-
-{{< figure src="/images/staff-nick.png" title="Photo of Nick" >}}
-
-### Nick
-
-Nick loves life on the west coast.
-His passion comes from tall trees and cold streams, the smell of the ocean and the breeze off the mountains. He loves where we live and it inspires his work.
-He has worked for Aslan for 4 years, and continues to grow his knowledge in the landscape industry.
