@@ -7,7 +7,7 @@ blurb: Playing in the yard since 2007
 ---
 
 
-Inspired by the breath-taking natural beauty of Vancouver Island, Aslan was founded in 2007 by Chris because of his love for creativity and outdoor space. Since then, a passionate group of people have joined him in his adventure of making every yard an enchanting space for his clients.
+Inspired by the breath-taking natural beauty of Vancouver Island, Chris founded Aslan in 2007. Since then, a passionate group of people have joined him in his venture of creating enchanted outdoor living spaces for his clients.
 
 ## We live by our values
 Each day at Aslan, we are guided by the same principles of giving exceptional customer service, keeping our promises, and continual innovation. We are solid on our word and we believe that every project deserves a creative solution.
