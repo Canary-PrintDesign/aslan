@@ -19,7 +19,7 @@
     "gulp-csslint": "^1.0.1",
     "gulp-fingerprint": "^0.3.2",
     "gulp-hash": "^4.2.2",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-jshint": "^2.1.0",
     "gulp-jslint": "^1.0.10",
     "gulp-line-ending-corrector": "^1.0.2",
