@@ -8,23 +8,42 @@ blurb: The beginning of something great
 
 <nav class="subNav">
   <ul>
-    <li class="current"><a href="/design" title="Design">Design</a></li>
-    <li><a href="/construction" title="Construction">Construction</a>
-    <li><a href="/maintenance" title="Maintenance">Maintenance</a></li>
+    <li class="current"><a href="/design" title="Landscape Design">Landscape<br>Design</a></li>
+    <li><a href="/lawncare" title="Lawn & Garden Care">Lawn & Garden <br>Care</a></li>
+    <li><a href="/construction" title="Landscape Construction">Landscape<br>Construction</a>
   </ul>
 </nav>
 
 
-A captivating landscape begins with an inspired design. Begin with a strong foundation, and engineer a plan that matches your vision.
-
 ## True innovation
 
-Through innovative action we are able to utilize the ability of your landscape to adapt to the wind direction, sun angle, slope, and other physical characteristics of your yard.
+Do you want to turn your drab yard into an oasis but aren't sure where to start? Our team of talented designers is here to help. We take pride in our creativity. Your design will be unlike any other!
 
 ## The Aslan Guarantee
 
-From planning to maintenance, let us handle all the hard work while you relax. We guarantee that you will be delighted by your landscaping investment.
+We guarantee you'll love the transformation of your space, and have fun in the process! Here is a peek at one of our past projects.
 
-{{< figure src="/images/plan-black-white.jpg" title="Photo of design draft" >}}
-{{< figure src="/images/plan-irrigation.jpg" title="Photo of design draft" >}}
-{{< figure src="/images/plan-color.jpg" title="Photo of design draft" >}}
+<div class="juxtapose">
+    <img src="/images/stage1-plan.jpg" />
+    <img src="/images/stage3-plan.jpg" />
+</div>
+
+</div>
+</section>
+
+
+<!-- <section class="servicetestimonial" style="background-image:url(/images/testimonial-bg.jpg)">
+  <div class="wrapper layoutCols">
+    <div class="numberContainer">
+      <span>11</span>
+      Years of Experience
+    </div>
+    <div class="testimonial">
+      <h2>Testimonial</h2>
+      <blockquote><span class="quoteLeft">&ldquo;</span>We are so thrilled with how our front and back yards have turned out! Chris was exceptionally patient and great at discussing and offering a design that reflected our lifestyle. (And he stayed on budget) Chris and his crew are courteous and refreshingly hard working. We have, and do, highly recommend Aslan Ventures!<span class="quoteRight">&rdquo;</span></blockquote>
+    </div>
+  </div> -->
+
+
+
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>

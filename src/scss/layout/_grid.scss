@@ -16,5 +16,37 @@
   @include mq($from: desktop) {
     flex: 1 33%;
     text-align: center;
+    padding-top: 60px;
   }
+}
+
+.col3 .colInner {
+    p {
+      text-align: left;
+      padding: 0px 10px 0px 10px;
+      }
+    h3 {
+      text-align: left;
+      padding: 0px 10px 0px 10px;
+    }
+}
+
+.colInner {
+  h3 {
+    margin-top:0px;
+  }
+  img {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+}
+
+
+
+.servicetestimonial {
+  background-image: radial-gradient(ellipse farthest-corner at right center, #28363C 0%, #395756 100%);
+  padding: 60px 0;
+  // margin-bottom: 60px;
+  background-size: cover;
+  background-position: right center;
 }
