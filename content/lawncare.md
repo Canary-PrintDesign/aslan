@@ -30,7 +30,7 @@ Does your lawn need some TLC? We offer routine lawn care and yard maintenance se
 
   <div class="colInner">
     <h3>Artiﬁcial Turf</h3>
-    <p>If you’re looking for the ultimate low-maintenance lawn, artiﬁcial turf may be for you. Whether it's allergies or convenience, artifical grass is a popular choice</p>
+    <p>If you’re looking for the ultimate low-maintenance lawn, artiﬁcial turf may be for you. Whether it's allergies or convenience, artificial grass is a popular choice</p>
   </div>
 </div>
 
