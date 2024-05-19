@@ -41,3 +41,8 @@ title = "Aslan Ventures"
   weight = -90
   identifier = "work"
   url = "/work/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

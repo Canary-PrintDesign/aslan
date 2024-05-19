@@ -28,7 +28,8 @@
     "gulp-rev": "^8.1.1",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "node-sass": "^4.14.1"
   },
   "stylelint": {
     "rules": {
@@ -57,5 +58,6 @@
       ],
       "declaration-block-trailing-semicolon": "always"
     }
-  }
+  },
+  "dependencies": {}
 }
